@@ -454,7 +454,21 @@ button{
     专辑中的歌曲大多由<strong>Taylor Swift</strong>自己创作，反映了她的青春期经历、恋爱感受和生活中的细腻情感。尽管<strong>Taylor Swift</strong>当时年纪尚轻，但她的歌词展现了成熟的情感洞察力，尤其是关于恋爱、失望和成长等主题。<br>
     <strong>《Love Story》</strong>里讲述了泰勒自己的情感故事，并结合莎士比亚的《罗密欧与朱丽叶》为歌曲增加故事戏剧性，凸显少女憧憬爱情的小心思。其次最受传唱的是<strong>《You Belong to Me》</strong>，在乡村的基础上融入了流行元素，朗朗上口的旋律加上极具感染力的少女心事，让人重拾对生活的勇气，正如专辑所表达的主题——勇敢去爱。</p>
 </div>
+<script>
+  const Taylorswift=document.querySelector('.TaylorSwift');
+const body=document.querySelector('body');
+const Taylorswift_文本=document.querySelector('.TaylorSwift_文本')
+const TaylorSwift_vinyl=document.querySelector('.TaylorSwift_vinyl')
 
+Taylorswift.addEventListener('click', function() {  
+  
+  Taylorswift.classList.toggle('divclicked');
+  Taylorswift.classList.toggle('no-hover-effect');
+  TaylorSwift_vinyl.classList.toggle('TaylorSwift_vinylclicked')
+  body.classList.toggle('bodyclicked');
+  Taylorswift_文本.classList.toggle('TaylorSwift_文本clicked')
+});
+</script>
   <div class="Fearless">
     <button></button>
     <img src="./photo/Fearless.jpg" alt="" class="Fearless_album">
