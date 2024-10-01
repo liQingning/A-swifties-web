@@ -1,5 +1,6 @@
 body {
   min-height: 100vh;
+  transition: 0.5s;
   background-image: 
   radial-gradient(closest-side,rgba(43, 85, 61,1),rgba(43, 85, 61,0)),
   radial-gradient(closest-side,rgba(4, 174, 223,1),rgba(4, 174, 223,0)),
@@ -82,13 +83,33 @@ body {
   }
 }
 
-/* 滚动内容容器 */
-/* .content {
-  height: 200vh; 
-  padding: 20px;
-  background-color: rgba(153, 52, 52, 0.8);
-} */
-
+.bodyclicked{
+  min-height: 100vh;
+  transition:  0.5s;
+  background-image: 
+  radial-gradient(closest-side,rgb(30, 59, 42),rgba(43, 85, 61,0)),
+  radial-gradient(closest-side,rgb(3, 114, 145),rgba(4, 174, 223,0)),
+  radial-gradient(closest-side,rgb(0, 111, 133),rgba(0, 163, 195,0)),
+  radial-gradient(closest-side,rgb(72, 144, 120),rgba(98, 193, 161,0)),
+  radial-gradient(closest-side,rgb(69, 112, 40),rgb(96, 156, 56,0));
+  background-size: 
+    130vmax 130vmax,
+    80vmax 80vmax,
+    90vmax 90vmax,
+    110vmax 110vmax,
+    90vmax 90vmax; 
+  background-position: 
+    -80vmax -80vmax,
+    60vmax -30vmax,
+    10vmax 10vmax, 
+    -30vmax -20vmax,
+    50vmax 50vmax; ;
+     /*background-repeat: no-repeat; */
+  background-attachment: fixed; /* 背景固定 */
+  animation: 5s movement linear infinite;
+  
+  background-color: rgba(0, 0, 0, 0.5);
+}
 
 
 
@@ -103,6 +124,19 @@ div{
   margin-bottom: 300px;
   margin-left: 300px;
 }
+
+.divclicked{
+  width: 500px;
+  height: 500px;
+  position: relative;
+  transition:   0.5s;
+  float: left;
+  margin-top: 150px;
+  margin-bottom: 250px;
+  margin-left: 250px;
+ 
+}
+
 button{
   border: 0;
   width: 400px;
@@ -130,6 +164,22 @@ button{
   border: solid transparent;
   border-radius: 15px;
 } 
+
+.TaylorSwift_文本clicked{
+  width: 500px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 54px;
+  margin-bottom: 250px;
+  margin-left: 250px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 19px;
+  letter-spacing: 2px;
+  transform: translateY(-30px);
+  border: solid transparent;
+  border-radius: 15px;
+  opacity: 0;
+} 
 .TaylorSwift_文本:hover{
   transition: 0.5s;
   border: solid rgb(98, 96, 96) ;
@@ -142,6 +192,7 @@ button{
      1px -1px 0 #58b530,  
     -1px  1px 0 #58b530,  
      1px  1px 0 #58b530;
+  font-family: "微软雅黑";
   font-family:Arial, Helvetica, sans-serif;
   font-size: 22px;
 }
@@ -149,8 +200,9 @@ button{
   z-index: 1;
   width: 100%;
   transition: 0.5s;
-  box-shadow: 0 0px 15px 8px  rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0px 15px 8px  rgba(0, 0, 0, 0.5);
   border-radius: 15px;
+  
 }
 .TaylorSwift:hover .TaylorSwift_album{
   box-shadow: 0 35px 35px -8px rgba(0, 0, 0, 0.75);
@@ -158,6 +210,13 @@ button{
   /* transition-duration: 0.5s; */
   transition: 0.5s;
   filter: blur(1px) brightness(75%);
+}
+.no-hover-effect:hover .TaylorSwift_album {
+  box-shadow: 0 0px 15px 8px  rgba(0, 0, 0, 0.5);
+  transform: none;  
+  transition: none;  
+  filter: none; 
+  transition: 0.5s;
 }
 
 .TaylorSwift_chracter{
@@ -174,6 +233,16 @@ button{
   transform: perspective(500px) translate3d(0px,-11px ,50px);
   transition: 0.5s;
 }
+.no-hover-effect:hover .TaylorSwift_chracter {
+  box-shadow: none;  
+  transform: none;  
+  transition: none;  
+  filter: none; 
+  transition: 0.5s;
+  opacity: 0;
+}
+
+
 .TaylorSwift_name{
   width: 100%;
   z-index: 3;
@@ -188,9 +257,33 @@ button{
   filter: brightness(120%);
   transform: perspective(500px) translate3d(0px,-10px ,40px);
 }
+.no-hover-effect:hover .TaylorSwift_name {
+  box-shadow: none;  
+  transform: none;  
+  transition: none;  
+  filter: none; 
+  transition: 0.5s;
+  opacity: 0;
+}
 
-
-
+.TaylorSwift_vinyl{
+  transition: 0.1s;
+  z-index: 0;
+  width: 100%;
+  transition: 0.5s;
+  border-radius: 15px;
+  opacity: 0;
+}
+.TaylorSwift_vinylclicked{
+  z-index: 0;
+  width: 100%;
+  transition: 0.3s;
+  
+  border-radius: 15px;
+  opacity: 1;
+  transform: translate3d(180px,0,0);
+  transition-delay: 0.5s;
+}
 
 .Fearless img{
   position: absolute;
