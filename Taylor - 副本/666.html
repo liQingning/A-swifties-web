@@ -6,6 +6,434 @@
   <title>Document</title>
   <link rel="stylesheet" href="\css.css">
   <script src="/js.js" defer></script>
+  <style>
+    body {
+  min-height: 100vh;
+  transition: 0.5s;
+  background-image: 
+  radial-gradient(closest-side,rgba(43, 85, 61,1),rgba(43, 85, 61,0)),
+  radial-gradient(closest-side,rgba(4, 174, 223,1),rgba(4, 174, 223,0)),
+  radial-gradient(closest-side,rgba(0, 163, 195,1),rgba(0, 163, 195,0)),
+  radial-gradient(closest-side,rgba(98, 193, 161,1),rgba(98, 193, 161,0)),
+  radial-gradient(closest-side,rgb(96, 156, 56,1),rgb(96, 156, 56,0));
+  background-size: 
+    130vmax 130vmax,
+    80vmax 80vmax,
+    90vmax 90vmax,
+    110vmax 110vmax,
+    90vmax 90vmax; 
+  background-position: 
+    -80vmax -80vmax,
+    60vmax -30vmax,
+    10vmax 10vmax, 
+    -30vmax -20vmax,
+    50vmax 50vmax; ;
+     /*background-repeat: no-repeat; */
+  background-attachment: fixed; /* 背景固定 */
+  animation: 5s movement linear infinite;
+}
+
+@keyframes movement{
+  0%,100%{
+    background-size: 
+    130vmax 130vmax,
+    80vmax 80vmax,
+    90vmax 90vmax,
+    110vmax 110vmax,
+    90vmax 90vmax; /* 背景覆盖整个页面 */
+    background-position: 
+    -80vmax -80vmax,
+    60vmax -30vmax,
+    10vmax 10vmax,
+    -30vmax -10vmax,
+    50vmax 50vmax;
+  }
+  25%{
+    background-size: 
+    120vmax 130vmax,
+    90vmax 80vmax,
+    90vmax 100vmax,
+    110vmax 90vmax,
+    100vmax 90vmax; /* 背景覆盖整个页面 */
+    background-position: 
+    -70vmax -70vmax,
+    50vmax -20vmax,
+    20vmax 10vmax,
+    -20vmax -20vmax,
+    60vmax 40vmax;
+  }
+  50%{
+    background-size: 
+    120vmax 110vmax,
+    100vmax 90vmax,
+    90vmax 100vmax,
+    110vmax 90vmax,
+    90vmax 80vmax; /* 背景覆盖整个页面 */
+    background-position: 
+    -80vmax -70vmax,
+    60vmax -20vmax,
+    20vmax 30vmax,
+    -25vmax -30vmax,
+    60vmax 50vmax;
+  }
+  75%{
+    background-size: 
+    110vmax 120vmax,
+    90vmax 95vmax,
+    90vmax 90vmax,
+    100vmax 90vmax,
+    90vmax 90vmax; /* 背景覆盖整个页面 */
+    background-position: 
+    -70vmax -80vmax,
+    60vmax -30vmax,
+    30vmax 10vmax,
+    -20vmax -20vmax,
+    50vmax 60vmax;
+  }
+}
+
+.bodyclicked{
+  min-height: 100vh;
+  transition:  0.5s;
+  background-image: 
+  radial-gradient(closest-side,rgb(30, 59, 42),rgba(43, 85, 61,0)),
+  radial-gradient(closest-side,rgb(3, 114, 145),rgba(4, 174, 223,0)),
+  radial-gradient(closest-side,rgb(0, 111, 133),rgba(0, 163, 195,0)),
+  radial-gradient(closest-side,rgb(72, 144, 120),rgba(98, 193, 161,0)),
+  radial-gradient(closest-side,rgb(69, 112, 40),rgb(96, 156, 56,0));
+  background-size: 
+    130vmax 130vmax,
+    80vmax 80vmax,
+    90vmax 90vmax,
+    110vmax 110vmax,
+    90vmax 90vmax; 
+  background-position: 
+    -80vmax -80vmax,
+    60vmax -30vmax,
+    10vmax 10vmax, 
+    -30vmax -20vmax,
+    50vmax 50vmax; ;
+     /*background-repeat: no-repeat; */
+  background-attachment: fixed; /* 背景固定 */
+  animation: 5s movement linear infinite;
+  
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+div{
+  width: 400px;
+  height: 400px;
+  position: relative;
+  transition:  0.5s;
+  float: left;
+  margin-top: 200px;
+  margin-bottom: 300px;
+  margin-left: 300px;
+}
+
+.divclicked{
+  width: 500px;
+  height: 500px;
+  position: relative;
+  transition:   0.5s;
+  float: left;
+  margin-top: 150px;
+  margin-bottom: 250px;
+  margin-left: 250px;
+ 
+}
+
+button{
+  border: 0;
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  z-index: 4;
+  opacity: 0;
+}
+
+
+.TaylorSwift img{
+  position: absolute;
+}
+.TaylorSwift_文本{
+  width: 500px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 54px;
+  margin-bottom: 250px;
+  margin-left: 250px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 19px;
+  letter-spacing: 2px;
+  transform: translateY(-30px);
+  border: solid transparent;
+  border-radius: 15px;
+} 
+
+.TaylorSwift_文本clicked{
+  width: 500px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 54px;
+  margin-bottom: 250px;
+  margin-left: 250px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 19px;
+  letter-spacing: 2px;
+  transform: translateY(-30px);
+  border: solid transparent;
+  border-radius: 15px;
+  opacity: 0;
+} 
+.TaylorSwift_文本:hover{
+  transition: 0.5s;
+  border: solid rgb(98, 96, 96) ;
+  border-radius: 15px;
+}
+.TaylorSwift_文本 strong{
+  color: white;
+  text-shadow:   
+    -1px -1px 0 #58b530,    
+     1px -1px 0 #58b530,  
+    -1px  1px 0 #58b530,  
+     1px  1px 0 #58b530;
+  font-family: "微软雅黑";
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 22px;
+}
+.TaylorSwift_album{
+  z-index: 1;
+  width: 100%;
+  transition: 0.5s;
+  box-shadow: 0 0px 15px 8px  rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  
+}
+.TaylorSwift:hover .TaylorSwift_album{
+  box-shadow: 0 35px 35px -8px rgba(0, 0, 0, 0.75);
+  transform:perspective(500px) rotateX(30deg);
+  /* transition-duration: 0.5s; */
+  transition: 0.5s;
+  filter: blur(1px) brightness(75%);
+}
+.no-hover-effect:hover .TaylorSwift_album {
+  box-shadow: 0 0px 15px 8px  rgba(0, 0, 0, 0.5);
+  transform: none;  
+  transition: none;  
+  filter: none; 
+  transition: 0.5s;
+}
+
+.TaylorSwift_chracter{
+  z-index: 2;
+  width: 100%;
+  bottom: 0;
+  filter: brightness(150%);
+  transform: translatey(0%);
+  opacity: 0;
+  transition: 0.5s; 
+}
+.TaylorSwift:hover .TaylorSwift_chracter{
+  opacity: 1;
+  transform: perspective(500px) translate3d(0px,-11px ,50px);
+  transition: 0.5s;
+}
+.no-hover-effect:hover .TaylorSwift_chracter {
+  box-shadow: none;  
+  transform: none;  
+  transition: none;  
+  filter: none; 
+  transition: 0.5s;
+  opacity: 0;
+}
+
+
+.TaylorSwift_name{
+  width: 100%;
+  z-index: 3;
+  bottom: 0px;
+  opacity: 0; 
+  transform: translateY(10px);
+  transition: 0.5s;
+}
+.TaylorSwift:hover .TaylorSwift_name{
+  transition: 0.5s;
+  opacity: 1;
+  filter: brightness(120%);
+  transform: perspective(500px) translate3d(0px,-10px ,40px);
+}
+.no-hover-effect:hover .TaylorSwift_name {
+  box-shadow: none;  
+  transform: none;  
+  transition: none;  
+  filter: none; 
+  transition: 0.5s;
+  opacity: 0;
+}
+
+.TaylorSwift_vinyl{
+  transition: 0.1s;
+  z-index: 0;
+  width: 100%;
+  transition: 0.5s;
+  border-radius: 15px;
+  opacity: 0;
+}
+.TaylorSwift_vinylclicked{
+  z-index: 0;
+  width: 100%;
+  transition: 0.3s;
+  
+  border-radius: 15px;
+  opacity: 1;
+  transform: translate3d(180px,0,0);
+  transition-delay: 0.5s;
+}
+
+.Fearless img{
+  position: absolute;
+}
+.Fearless_album{
+  z-index: 1;
+  width: 100%;
+  transition: 0.5s;
+  box-shadow: 0 0px 15px 8px  rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+}
+.Fearless:hover .Fearless_album{
+  box-shadow: 0 35px 35px -8px rgba(0, 0, 0, 0.75);
+  transform:perspective(500px) rotateX(30deg);
+  /* transition-duration: 0.5s; */
+  transition: 0.5s;
+  filter: blur(1px) brightness(75%);
+}
+
+.Fearless_chracter{
+  z-index: 2;
+  width: 70%;
+  bottom: 0;
+  transform: translatex(20%);
+  opacity: 0;
+  transition: 0.5s; 
+}
+.Fearless:hover .Fearless_chracter{
+  opacity: 1;
+  transform: perspective(500px) translate3d(40px,-11px ,40px);
+  transition: 0.5s;
+}
+.Fearless_name{
+  width: 100%;
+  z-index: 3;
+  bottom: 0px;
+  opacity: 0; 
+  transition: 0.5s;
+}
+.Fearless:hover .Fearless_name{
+  transition: 0.5s;
+  opacity: 1;
+  filter: brightness(120%);
+  transform: perspective(500px) translate3d(0px,-25px ,50px);
+}
+
+
+
+
+.reputation img{
+  position: absolute;
+}
+.reputation_album{
+  z-index: 1;
+  width: 100%;
+  transition: 0.5s;
+  box-shadow: 0 0px 15px 8px  rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+}
+.reputation:hover .reputation_album{
+  box-shadow: 0 35px 35px -8px rgba(0, 0, 0, 0.75);
+  transform:perspective(500px) rotateX(30deg);
+  /* transition-duration: 0.5s; */
+  transition: 0.5s;
+  filter: blur(1px) brightness(75%);
+}
+
+.reputation_chracter{
+  z-index: 2;
+  width: 80%;
+  bottom: 0;
+  transform: translatex(10%);
+  opacity: 0;
+  transition: 0.5s; 
+}
+.reputation:hover .reputation_chracter{
+  opacity: 1;
+  transform: perspective(500px) translate3d(20px,-11px ,40px);
+  transition: 0.5s;
+}
+.reputation_name{
+  width: 100%;
+  z-index: 3;
+  bottom: 0px;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: 0.5s;
+}
+.reputation:hover .reputation_name{
+  transition: 0.5s;
+  opacity: 1;
+  filter: brightness(120%);
+  transform: perspective(500px) translate3d(0px,-1px ,50px);
+}
+
+
+.evermore img{
+  position: absolute;
+}
+.evermore_album{
+  z-index: 1;
+  width: 100%;
+  transition: 0.5s;
+  box-shadow: 0 0px 15px 8px  rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+}
+.evermore:hover .evermore_album{
+  box-shadow: 0 35px 35px -8px rgba(0, 0, 0, 0.75);
+  transform:perspective(500px) rotateX(30deg);
+  transition: 0.5s;
+  filter: blur(1px) brightness(75%);
+}
+
+.evermore_chracter{
+  z-index: 2;
+  width: 65%;
+  bottom: 0;
+  transform: translatex(28%);
+  opacity: 0;
+  transition: 0.5s; 
+}
+.evermore:hover .evermore_chracter{
+  opacity: 1;
+  transform: perspective(500px) translate3d(28%,-11px ,50px);
+  transition: 0.5s;
+}
+.evermore_name{
+  width: 100%;
+  z-index: 3;
+  bottom: 0px;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: 0.5s;
+}
+.evermore:hover .evermore_name{
+  transition: 0.5s;
+  opacity: 1;
+  filter: brightness(120%);
+  transform: perspective(500px) translate3d(0px,-1px ,50px);
+}
+</style>
 </head>
 <body>
   
