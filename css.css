@@ -1,0 +1,3498 @@
+body {
+  min-height: 100vh;
+  transition: 0.5s;
+  background-image: 
+  radial-gradient(closest-side,rgba(43, 85, 61,1),rgba(43, 85, 61,0)),
+  radial-gradient(closest-side,rgba(4, 174, 223,1),rgba(4, 174, 223,0)),
+  radial-gradient(closest-side,rgba(0, 163, 195,1),rgba(0, 163, 195,0)),
+  radial-gradient(closest-side,#62c1a1,rgba(98, 193, 161,0)),
+  radial-gradient(closest-side,rgba(96, 156, 56,1),rgb(96, 156, 56,0)),
+
+  radial-gradient(closest-side,rgba(227, 207, 154,1),rgba(43, 85, 61,0)),
+  radial-gradient(closest-side,rgba(159, 109, 52,1),rgba(4, 174, 223,0)),
+  radial-gradient(closest-side,rgba(199, 153, 75,1),rgba(0, 163, 195,0)),
+  radial-gradient(closest-side,rgba(193, 138, 50,1),rgba(98, 193, 161,0)),
+  radial-gradient(closest-side,rgba(227, 207, 154,1),rgba(96, 156, 56,0)),
+
+  radial-gradient(closest-side,#c579a8,rgba(43, 85, 61,0)),
+  radial-gradient(closest-side,#863077,rgba(4, 174, 223,0)),
+  radial-gradient(closest-side,#a9386c,rgba(0, 163, 195,0)),
+  radial-gradient(closest-side,#bb5584,rgba(98, 193, 161,0)),
+  radial-gradient(closest-side,#863077,rgba(96, 156, 56,0)),
+
+  radial-gradient(closest-side,#a91247,rgba(43, 85, 61,0)),
+  radial-gradient(closest-side,#bcad8e,rgba(4, 174, 223,0)),
+  radial-gradient(closest-side,#a91247,rgba(0, 163, 195,0)),
+  radial-gradient(closest-side,#ece8dc,rgba(98, 193, 161,0)),
+  radial-gradient(closest-side,#1a1a36,rgba(96, 156, 56,0)),
+
+  radial-gradient(closest-side,#b19e97,rgb(134, 109, 131,0)),
+  radial-gradient(closest-side,#866d83,rgb(134, 109, 131,0)),
+  radial-gradient(closest-side,#e0e0d6,rgb(177, 158, 151,0)),
+  radial-gradient(closest-side,#cfbea0,rgba(98, 193, 161,0)),
+  radial-gradient(closest-side,#866d83,rgb(207, 190, 160,0)),
+
+  radial-gradient(closest-side,#1e1d1d,rgb(134, 109, 131,0)),
+  radial-gradient(closest-side,#5f5f5f,rgb(134, 109, 131,0)),
+  radial-gradient(closest-side,#080808,rgb(177, 158, 151,0)),
+  radial-gradient(closest-side,#868686,rgba(98, 193, 161,0)),
+  radial-gradient(closest-side,#3e3e3e,rgb(207, 190, 160,0)),
+
+  radial-gradient(closest-side,#ffedbb,rgb(134, 109, 131,0)),
+  radial-gradient(closest-side,#79bbde,rgb(134, 109, 131,0)),
+  radial-gradient(closest-side,#feb3d0,rgb(177, 158, 151,0)),
+  radial-gradient(closest-side,#c3b9de,rgba(98, 193, 161,0)),
+  radial-gradient(closest-side,#feb2d0,rgb(207, 190, 160,0)),
+
+  radial-gradient(closest-side,#898989,rgb(134, 109, 131,0)),
+  radial-gradient(closest-side,#454545,rgb(134, 109, 131,0)),
+  radial-gradient(closest-side,#a4a4a4,rgb(177, 158, 151,0)),
+  radial-gradient(closest-side,#757576,rgba(98, 193, 161,0)),
+  radial-gradient(closest-side,#a0a0a0,rgb(207, 190, 160,0)),
+  
+  radial-gradient(closest-side,#673829,rgb(134, 109, 131,0)),
+  radial-gradient(closest-side,#6b655a,rgb(134, 109, 131,0)),
+  radial-gradient(closest-side,#745f41,rgb(177, 158, 151,0)),
+  radial-gradient(closest-side,#321005,rgba(98, 193, 161,0)),
+  radial-gradient(closest-side,#79604f,rgb(207, 190, 160,0)),
+
+  radial-gradient(closest-side,#654425,rgba(43, 85, 61,0)),
+  radial-gradient(closest-side,#9f6d34,rgba(4, 174, 223,0)),
+  radial-gradient(closest-side,#c7994b,rgba(0, 163, 195,0)),
+  radial-gradient(closest-side,#c18a32,rgba(98, 193, 161,0)),
+  radial-gradient(closest-side,#815f02,rgba(96, 156, 56,0)),
+   
+  radial-gradient(closest-side,#bc7c56,rgb(134, 109, 131,0)),
+  radial-gradient(closest-side,#79604f,rgb(134, 109, 131,0)),
+  radial-gradient(closest-side,#a12117,rgb(177, 158, 151,0)),
+  radial-gradient(closest-side,#643525,rgba(98, 193, 161,0)),
+  radial-gradient(closest-side,#721b00,rgb(207, 190, 160,0)),
+
+  radial-gradient(closest-side,#52618c,rgb(134, 109, 131,0)),
+  radial-gradient(closest-side,#52618c,rgb(134, 109, 131,0)),
+  radial-gradient(closest-side,#ae9b95,rgb(177, 158, 151,0)),
+  radial-gradient(closest-side,#813f40,rgba(98, 193, 161,0)),
+  radial-gradient(closest-side,#e9e6e1,rgb(207, 190, 160,0)),
+
+  radial-gradient(closest-side,#669cb7,rgb(134, 109, 131,0)),
+  radial-gradient(closest-side,#d0d3d8,rgb(134, 109, 131,0)),
+  radial-gradient(closest-side,#4d80a3,rgb(177, 158, 151,0)),
+  radial-gradient(closest-side,#c9ccc5,rgba(98, 193, 161,0)),
+  radial-gradient(closest-side,#52697b,rgb(207, 190, 160,0)),
+
+  radial-gradient(closest-side,#3d1a4c,rgba(43, 85, 61,0)),
+  radial-gradient(closest-side,#995f98,rgba(4, 174, 223,0)),
+  radial-gradient(closest-side,#361f3f,rgba(0, 163, 195,0)),
+  radial-gradient(closest-side,#561f39,rgba(98, 193, 161,0)),
+  radial-gradient(closest-side,#863077,rgba(96, 156, 56,0)),
+
+  radial-gradient(closest-side,#7f766d,rgb(134, 109, 131,0)),
+  radial-gradient(closest-side,#eeede9,rgb(134, 109, 131,0)),
+  radial-gradient(closest-side,#8c837a,rgb(177, 158, 151,0)),
+  radial-gradient(closest-side,#ffffff,rgba(98, 193, 161,0)),
+  radial-gradient(closest-side,#968d84,rgb(207, 190, 160,0));
+
+
+  background-size: 
+    75vmax 75vmax,
+    85vmax 85vmax,
+    70vmax 70vmax,
+    65vmax 65vmax,
+    70vmax 70vmax;
+
+  background-position: 
+    -10vmax -30vmax,
+    -20vmax -20vmax,
+    10vmax -20vmax, 
+    60vmax 0vmax,
+    50vmax -20vmax,/**/
+
+    -10vmax 25vmax,
+    -20vmax 35vmax,
+    10vmax 35vmax, 
+    60vmax 55vmax,
+    50vmax 35vmax,
+
+    -10vmax 80vmax,
+    -20vmax 70vmax,
+    10vmax 90vmax, 
+    60vmax 90vmax,
+    50vmax 80vmax,/**/
+
+    -10vmax 135vmax,
+    -20vmax 125vmax,
+    10vmax 145vmax, 
+    60vmax 145vmax,
+    50vmax 135vmax,
+    
+    -10vmax 190vmax,
+    -20vmax 180vmax,
+    10vmax 200vmax, 
+    60vmax 200vmax,
+    50vmax 190vmax,
+
+    -20vmax 245vmax,
+    50vmax 235vmax,
+    20vmax 255vmax,
+    60vmax 255vmax,
+    30vmax 245vmax,
+
+    -10vmax 300vmax,
+    -20vmax 290vmax,
+    10vmax 310vmax, 
+    60vmax 310vmax,
+    50vmax 300vmax,
+
+    -20vmax 355vmax,
+    50vmax 345vmax,
+    20vmax 365vmax, 
+    60vmax 365vmax,
+    30vmax 355vmax,
+
+    -10vmax 410vmax,
+    -20vmax 400vmax,
+    10vmax 420vmax, 
+    60vmax 420vmax,
+    50vmax 410vmax,
+
+    -20vmax 465vmax,
+    50vmax 455vmax,
+    20vmax 475vmax, 
+    60vmax 475vmax,
+    30vmax 465vmax,
+
+    -10vmax 520vmax,
+    -20vmax 510vmax,
+    10vmax 530vmax, 
+    60vmax 530vmax,
+    50vmax 520vmax,
+
+    -20vmax 575vmax,
+    50vmax 565vmax,
+    20vmax 585vmax, 
+    60vmax 585vmax,
+    30vmax 575vmax,
+
+    -10vmax 630vmax,
+    -20vmax 620vmax,
+    10vmax 640vmax, 
+    60vmax 640vmax,
+    50vmax 630vmax,
+
+    -20vmax 685vmax,
+    50vmax 675vmax,
+    20vmax 695vmax, 
+    60vmax 695vmax,
+    30vmax 685vmax,
+
+    -10vmax 740vmax,
+    -20vmax 730vmax,
+    10vmax 750vmax, 
+    60vmax 750vmax,
+    50vmax 740vmax;
+     background-repeat: no-repeat;
+  /* background-attachment: fixed;  */
+  animation: 8s movement linear infinite;
+} 
+
+@keyframes movement{
+  0%,100%{
+    background-size: 
+    75vmax 75vmax,
+    85vmax 85vmax,
+    70vmax 70vmax,
+    65vmax 65vmax,
+    70vmax 70vmax;
+
+    background-position: 
+    -10vmax -30vmax,
+    -20vmax -20vmax,
+    10vmax -20vmax, 
+    60vmax 0vmax,
+    50vmax -20vmax,/**/
+
+    -10vmax 25vmax,
+    -15vmax 35vmax,
+    10vmax 35vmax, 
+    60vmax 55vmax,
+    50vmax 35vmax,
+    
+    -10vmax 80vmax,
+    -20vmax 70vmax,
+    10vmax 90vmax, 
+    60vmax 90vmax,
+    50vmax 80vmax,/**/
+
+    -10vmax 135vmax,
+    -20vmax 125vmax,
+    10vmax 145vmax, 
+    60vmax 145vmax,
+    50vmax 135vmax,
+    
+    -10vmax 190vmax,
+    -20vmax 180vmax,
+    10vmax 200vmax, 
+    60vmax 200vmax,
+    50vmax 190vmax,
+
+    -20vmax 245vmax,
+    50vmax 235vmax,
+    20vmax 255vmax,
+    60vmax 255vmax,
+    30vmax 245vmax,
+
+    -10vmax 300vmax,
+    -20vmax 290vmax,
+    10vmax 310vmax, 
+    60vmax 310vmax,
+    50vmax 300vmax,
+
+    -20vmax 355vmax,
+    50vmax 345vmax,
+    20vmax 365vmax, 
+    60vmax 365vmax,
+    30vmax 355vmax,
+
+    -10vmax 410vmax,
+    -20vmax 400vmax,
+    10vmax 420vmax, 
+    60vmax 420vmax,
+    50vmax 410vmax,
+
+    -20vmax 465vmax,
+    50vmax 455vmax,
+    20vmax 475vmax, 
+    60vmax 475vmax,
+    30vmax 465vmax,
+
+    -10vmax 520vmax,
+    -20vmax 510vmax,
+    10vmax 530vmax, 
+    60vmax 530vmax,
+    50vmax 520vmax,
+
+    -20vmax 575vmax,
+    50vmax 565vmax,
+    20vmax 585vmax, 
+    60vmax 585vmax,
+    30vmax 575vmax,
+
+    -10vmax 630vmax,
+    -20vmax 620vmax,
+    10vmax 640vmax, 
+    60vmax 640vmax,
+    50vmax 630vmax,
+
+    -20vmax 685vmax,
+    50vmax 675vmax,
+    20vmax 695vmax, 
+    60vmax 695vmax,
+    30vmax 685vmax,
+
+    -10vmax 740vmax,
+    -20vmax 730vmax,
+    10vmax 750vmax, 
+    60vmax 750vmax,
+    50vmax 740vmax;
+  }
+  25%{
+    background-size: 
+    70vmax 70vmax,
+    80vmax 80vmax,
+    70vmax 70vmax,
+    60vmax 60vmax,
+    70vmax 70vmax;
+  
+    background-position: 
+    -10vmax -25vmax,
+    -20vmax -30vmax,
+    10vmax -10vmax, 
+    60vmax 5vmax,
+    50vmax -10vmax,
+
+    10vmax 20vmax,
+    -10vmax 30vmax,
+    0vmax 40vmax, 
+    40vmax 50vmax,
+    70vmax 40vmax,
+
+    0vmax 80vmax,
+    -10vmax 70vmax,
+    20vmax 95vmax, 
+    70vmax 85vmax,
+    55vmax 70vmax,/**/
+
+    -5vmax 130vmax,
+    -25vmax 125vmax,
+    20vmax 150vmax, 
+    50vmax 140vmax,
+    60vmax 135vmax,
+    
+    0vmax 190vmax,
+    -15vmax 175vmax,
+    0vmax 200vmax, 
+    70vmax 200vmax,
+    60vmax 190vmax,
+
+    -25vmax 245vmax,
+    55vmax 235vmax,
+    15vmax 250vmax,
+    65vmax 260vmax,
+    30vmax 245vmax,
+
+    0vmax 300vmax,
+    -15vmax 285vmax,
+    0vmax 310vmax, 
+    70vmax 310vmax,
+    60vmax 300vmax,
+
+    -25vmax 355vmax,
+    55vmax 345vmax,
+    15vmax 370vmax,
+    65vmax 370vmax,
+    30vmax 355vmax,
+
+    0vmax 410vmax,
+    -15vmax 395vmax,
+    0vmax 420vmax, 
+    70vmax 420vmax,
+    60vmax 410vmax,
+
+    -25vmax 465vmax,
+    55vmax 455vmax,
+    15vmax 480vmax,
+    65vmax 480vmax,
+    30vmax 465vmax,
+
+    0vmax 520vmax,
+    -15vmax 505vmax,
+    0vmax 530vmax, 
+    70vmax 530vmax,
+    60vmax 520vmax,
+
+    -25vmax 575vmax,
+    55vmax 565vmax,
+    15vmax 590vmax,
+    65vmax 590vmax,
+    30vmax 585vmax,
+
+    0vmax 630vmax,
+    -15vmax 615vmax,
+    0vmax 640vmax, 
+    70vmax 640vmax,
+    60vmax 630vmax,
+
+    -25vmax 685vmax,
+    55vmax 675vmax,
+    15vmax 700vmax,
+    65vmax 700vmax,
+    30vmax 695vmax,
+
+    0vmax 740vmax,
+    -15vmax 725vmax,
+    0vmax 750vmax, 
+    70vmax 750vmax,
+    60vmax 740vmax;
+  }
+  50%{
+    background-size: 
+    75vmax 75vmax,
+    85vmax 85vmax,
+    70vmax 70vmax,
+    65vmax 65vmax,
+    70vmax 70vmax;
+    
+    background-position: 
+    -9vmax -29vmax,
+    -40vmax -20vmax,
+    30vmax -20vmax, 
+    70vmax 0vmax,
+    20vmax -20vmax,
+
+    20vmax 25vmax,
+    -15vmax 35vmax,
+    20vmax 35vmax, 
+    30vmax 55vmax,
+    60vmax 35vmax,
+
+    -10vmax 80vmax,
+    -20vmax 70vmax,
+    10vmax 90vmax, 
+    60vmax 90vmax,
+    50vmax 80vmax,/**/
+
+    -10vmax 135vmax,
+    -20vmax 125vmax,
+    10vmax 145vmax, 
+    60vmax 145vmax,
+    50vmax 135vmax,
+    
+    -15vmax 180vmax,
+    -10vmax 190vmax,
+    20vmax 200vmax, 
+    50vmax 200vmax,
+    60vmax 190vmax,
+
+    -20vmax 245vmax,
+    50vmax 230vmax,
+    25vmax 255vmax,
+    55vmax 255vmax,
+    31vmax 240vmax,
+
+    -15vmax 290vmax,
+    -10vmax 300vmax,
+    20vmax 310vmax, 
+    50vmax 310vmax,
+    60vmax 300vmax,
+
+    -20vmax 355vmax,
+    50vmax 340vmax,
+    25vmax 365vmax,
+    55vmax 365vmax,
+    31vmax 350vmax,
+
+    -15vmax 400vmax,
+    -10vmax 410vmax,
+    20vmax 420vmax, 
+    50vmax 420vmax,
+    60vmax 410vmax,
+
+    -20vmax 465vmax,
+    50vmax 450vmax,
+    25vmax 475vmax,
+    55vmax 475vmax,
+    31vmax 460vmax,
+
+    -15vmax 510vmax,
+    -10vmax 520vmax,
+    20vmax 530vmax, 
+    50vmax 530vmax,
+    60vmax 520vmax,
+
+    -20vmax 575vmax,
+    50vmax 560vmax,
+    25vmax 585vmax,
+    55vmax 585vmax,
+    31vmax 570vmax,
+
+    -15vmax 620vmax,
+    -10vmax 630vmax,
+    20vmax 640vmax, 
+    50vmax 640vmax,
+    60vmax 630vmax,
+
+    -20vmax 685vmax,
+    50vmax 670vmax,
+    25vmax 695vmax,
+    55vmax 695vmax,
+    31vmax 680vmax,
+
+    -15vmax 730vmax,
+    -10vmax 740vmax,
+    20vmax 750vmax, 
+    50vmax 750vmax,
+    60vmax 740vmax;
+  }
+  75%{
+    background-size: 
+    70vmax 70vmax,
+    80vmax 80vmax,
+    70vmax 70vmax,
+    60vmax 60vmax,
+    70vmax 70vmax;
+
+    background-position: 
+    -10vmax -35vmax,
+    -30vmax -10vmax,
+    20vmax -25vmax, 
+    60vmax 5vmax,
+    40vmax -15vmax,
+
+    10vmax 30vmax,
+    -10vmax 40vmax,
+    15vmax 30vmax, 
+    50vmax 50vmax,
+    55vmax 30vmax,
+
+    -5vmax 85vmax,
+    -15vmax 80vmax,
+    15vmax 90vmax, 
+    60vmax 90vmax,
+    50vmax 80vmax,/**/
+
+    -5vmax 135vmax,
+    -10vmax 125vmax,
+    15vmax 145vmax, 
+    65vmax 145vmax,
+    55vmax 135vmax,
+    
+    -17vmax 190vmax,
+    -20vmax 180vmax,
+    16vmax 200vmax, 
+    58vmax 200vmax,
+    43vmax 190vmax,
+
+    -15vmax 250vmax,
+    40vmax 230vmax,
+    25vmax 255vmax,
+    55vmax 255vmax,
+    35vmax 240vmax,
+
+    -17vmax 300vmax,
+    -20vmax 290vmax,
+    16vmax 310vmax, 
+    58vmax 310vmax,
+    43vmax 300vmax,
+
+    -15vmax 360vmax,
+    40vmax 340vmax,
+    25vmax 365vmax,
+    55vmax 365vmax,
+    35vmax 350vmax,
+
+    -17vmax 410vmax,
+    -20vmax 400vmax,
+    16vmax 420vmax, 
+    58vmax 420vmax,
+    43vmax 410vmax,
+
+    -15vmax 470vmax,
+    40vmax 450vmax,
+    25vmax 475vmax,
+    55vmax 475vmax,
+    35vmax 460vmax,
+
+    -17vmax 520vmax,
+    -20vmax 510vmax,
+    16vmax 530vmax, 
+    58vmax 530vmax,
+    43vmax 520vmax,
+
+    -15vmax 580vmax,
+    40vmax 560vmax,
+    25vmax 585vmax,
+    55vmax 585vmax,
+    35vmax 570vmax,
+
+    -17vmax 630vmax,
+    -20vmax 620vmax,
+    16vmax 640vmax, 
+    58vmax 640vmax,
+    43vmax 630vmax,
+
+    -15vmax 690vmax,
+    40vmax 670vmax,
+    25vmax 695vmax,
+    55vmax 695vmax,
+    35vmax 680vmax,
+
+    -17vmax 740vmax,
+    -20vmax 730vmax,
+    16vmax 750vmax, 
+    58vmax 750vmax,
+    43vmax 740vmax;
+  }
+}
+
+
+
+.bodyclicked{
+  min-height: 100vh;
+  transition:  0.5s;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-image: 
+  radial-gradient(closest-side,rgba(43, 85, 61,1),rgba(43, 85, 61,0)),
+  radial-gradient(closest-side,rgba(4, 174, 223,1),rgba(4, 174, 223,0)),
+  radial-gradient(closest-side,rgba(0, 163, 195,1),rgba(0, 163, 195,0)),
+  radial-gradient(closest-side,rgba(98, 193, 161,1),rgba(98, 193, 161,0)),
+  radial-gradient(closest-side,rgba(96, 156, 56,1),rgb(96, 156, 56,0)),
+
+  radial-gradient(closest-side,rgba(227, 207, 154,1),rgba(43, 85, 61,0)),
+  radial-gradient(closest-side,rgba(159, 109, 52,1),rgba(4, 174, 223,0)),
+  radial-gradient(closest-side,rgba(199, 153, 75,1),rgba(0, 163, 195,0)),
+  radial-gradient(closest-side,rgba(193, 138, 50,1),rgba(98, 193, 161,0)),
+  radial-gradient(closest-side,rgba(227, 207, 154,1),rgba(96, 156, 56,0)),
+
+  radial-gradient(closest-side,#c579a8,rgba(43, 85, 61,0)),
+  radial-gradient(closest-side,#863077,rgba(4, 174, 223,0)),
+  radial-gradient(closest-side,#a9386c,rgba(0, 163, 195,0)),
+  radial-gradient(closest-side,#bb5584,rgba(98, 193, 161,0)),
+  radial-gradient(closest-side,#863077,rgba(96, 156, 56,0)),
+
+  radial-gradient(closest-side,#a91247,rgba(43, 85, 61,0)),
+  radial-gradient(closest-side,#bcad8e,rgba(4, 174, 223,0)),
+  radial-gradient(closest-side,#a91247,rgba(0, 163, 195,0)),
+  radial-gradient(closest-side,#ece8dc,rgba(98, 193, 161,0)),
+  radial-gradient(closest-side,#1a1a36,rgba(96, 156, 56,0)),
+
+  radial-gradient(closest-side,#b19e97,rgb(134, 109, 131,0)),
+  radial-gradient(closest-side,#866d83,rgb(134, 109, 131,0)),
+  radial-gradient(closest-side,#e0e0d6,rgb(177, 158, 151,0)),
+  radial-gradient(closest-side,#cfbea0,rgba(98, 193, 161,0)),
+  radial-gradient(closest-side,#866d83,rgb(207, 190, 160,0)),
+
+  radial-gradient(closest-side,#1e1d1d,rgb(134, 109, 131,0)),
+  radial-gradient(closest-side,#5f5f5f,rgb(134, 109, 131,0)),
+  radial-gradient(closest-side,#080808,rgb(177, 158, 151,0)),
+  radial-gradient(closest-side,#868686,rgba(98, 193, 161,0)),
+  radial-gradient(closest-side,#3e3e3e,rgb(207, 190, 160,0)),
+
+  radial-gradient(closest-side,#ffedbb,rgb(134, 109, 131,0)),
+  radial-gradient(closest-side,#79bbde,rgb(134, 109, 131,0)),
+  radial-gradient(closest-side,#feb3d0,rgb(177, 158, 151,0)),
+  radial-gradient(closest-side,#c3b9de,rgba(98, 193, 161,0)),
+  radial-gradient(closest-side,#feb2d0,rgb(207, 190, 160,0)),
+
+  radial-gradient(closest-side,#898989,rgb(134, 109, 131,0)),
+  radial-gradient(closest-side,#454545,rgb(134, 109, 131,0)),
+  radial-gradient(closest-side,#a4a4a4,rgb(177, 158, 151,0)),
+  radial-gradient(closest-side,#757576,rgba(98, 193, 161,0)),
+  radial-gradient(closest-side,#a0a0a0,rgb(207, 190, 160,0)),
+  
+  radial-gradient(closest-side,#673829,rgb(134, 109, 131,0)),
+  radial-gradient(closest-side,#6b655a,rgb(134, 109, 131,0)),
+  radial-gradient(closest-side,#745f41,rgb(177, 158, 151,0)),
+  radial-gradient(closest-side,#321005,rgba(98, 193, 161,0)),
+  radial-gradient(closest-side,#79604f,rgb(207, 190, 160,0)),
+
+  radial-gradient(closest-side,#654425,rgba(43, 85, 61,0)),
+  radial-gradient(closest-side,#9f6d34,rgba(4, 174, 223,0)),
+  radial-gradient(closest-side,rgba(199, 153, 75,1),rgba(0, 163, 195,0)),
+  radial-gradient(closest-side,rgba(193, 138, 50,1),rgba(98, 193, 161,0)),
+  radial-gradient(closest-side,rgb(129, 95, 2),rgba(96, 156, 56,0)),
+
+  radial-gradient(closest-side,#bc7c56,rgb(134, 109, 131,0)),
+  radial-gradient(closest-side,#79604f,rgb(134, 109, 131,0)),
+  radial-gradient(closest-side,#a12117,rgb(177, 158, 151,0)),
+  radial-gradient(closest-side,#643525,rgba(98, 193, 161,0)),
+  radial-gradient(closest-side,#721b00,rgb(207, 190, 160,0)),
+
+  radial-gradient(closest-side,#52618c,rgb(134, 109, 131,0)),
+  radial-gradient(closest-side,#52618c,rgb(134, 109, 131,0)),
+  radial-gradient(closest-side,#ae9b95,rgb(177, 158, 151,0)),
+  radial-gradient(closest-side,#813f40,rgba(98, 193, 161,0)),
+  radial-gradient(closest-side,#e9e6e1,rgb(207, 190, 160,0)),
+
+  radial-gradient(closest-side,#669cb7,rgb(134, 109, 131,0)),
+  radial-gradient(closest-side,#d0d3d8,rgb(134, 109, 131,0)),
+  radial-gradient(closest-side,#4d80a3,rgb(177, 158, 151,0)),
+  radial-gradient(closest-side,#c9ccc5,rgba(98, 193, 161,0)),
+  radial-gradient(closest-side,#52697b,rgb(207, 190, 160,0)),
+
+  radial-gradient(closest-side,#3d1a4c,rgba(43, 85, 61,0)),
+  radial-gradient(closest-side,#995f98,rgba(4, 174, 223,0)),
+  radial-gradient(closest-side,#361f3f,rgba(0, 163, 195,0)),
+  radial-gradient(closest-side,#561f39,rgba(98, 193, 161,0)),
+  radial-gradient(closest-side,#863077,rgba(96, 156, 56,0)),
+
+  radial-gradient(closest-side,#7f766d,rgb(134, 109, 131,0)),
+  radial-gradient(closest-side,#eeede9,rgb(134, 109, 131,0)),
+  radial-gradient(closest-side,#8c837a,rgb(177, 158, 151,0)),
+  radial-gradient(closest-side,#ffffff,rgba(98, 193, 161,0)),
+  radial-gradient(closest-side,#968d84,rgb(207, 190, 160,0));
+
+
+  background-size: 
+    75vmax 75vmax,
+    85vmax 85vmax,
+    70vmax 70vmax,
+    65vmax 65vmax,
+    70vmax 70vmax;
+
+  background-position: 
+    -10vmax -30vmax,
+    -20vmax -20vmax,
+    10vmax -20vmax, 
+    60vmax 0vmax,
+    50vmax -20vmax,/**/
+
+    -10vmax 25vmax,
+    -20vmax 35vmax,
+    10vmax 35vmax, 
+    60vmax 55vmax,
+    50vmax 35vmax,
+
+    -10vmax 80vmax,
+    -20vmax 70vmax,
+    10vmax 90vmax, 
+    60vmax 90vmax,
+    50vmax 80vmax,/**/
+
+    -10vmax 135vmax,
+    -20vmax 125vmax,
+    10vmax 145vmax, 
+    60vmax 145vmax,
+    50vmax 135vmax,
+    
+    -10vmax 190vmax,
+    -20vmax 180vmax,
+    10vmax 200vmax, 
+    60vmax 200vmax,
+    50vmax 190vmax,
+
+    -20vmax 245vmax,
+    50vmax 235vmax,
+    20vmax 255vmax,
+    60vmax 255vmax,
+    30vmax 245vmax,
+
+    -10vmax 300vmax,
+    -20vmax 290vmax,
+    10vmax 310vmax, 
+    60vmax 310vmax,
+    50vmax 300vmax,
+
+    -20vmax 355vmax,
+    50vmax 345vmax,
+    20vmax 365vmax, 
+    60vmax 365vmax,
+    30vmax 355vmax,
+
+    -10vmax 410vmax,
+    -20vmax 400vmax,
+    10vmax 420vmax, 
+    60vmax 420vmax,
+    50vmax 410vmax,
+
+    -20vmax 465vmax,
+    50vmax 455vmax,
+    20vmax 475vmax, 
+    60vmax 475vmax,
+    30vmax 465vmax,
+
+    -10vmax 520vmax,
+    -20vmax 510vmax,
+    10vmax 530vmax, 
+    60vmax 530vmax,
+    50vmax 520vmax,
+
+    -20vmax 575vmax,
+    50vmax 565vmax,
+    20vmax 585vmax, 
+    60vmax 585vmax,
+    30vmax 575vmax,
+
+    -10vmax 630vmax,
+    -20vmax 620vmax,
+    10vmax 640vmax, 
+    60vmax 640vmax,
+    50vmax 630vmax,
+
+    -20vmax 685vmax,
+    50vmax 675vmax,
+    20vmax 695vmax, 
+    60vmax 695vmax,
+    30vmax 685vmax,
+
+    -10vmax 740vmax,
+    -20vmax 730vmax,
+    10vmax 750vmax, 
+    60vmax 750vmax,
+    50vmax 740vmax;
+     background-repeat: no-repeat;
+  /* background-attachment: fixed;  */
+  animation: 8s movement linear infinite;
+
+
+}
+
+
+div{
+  width: 400px;
+  height: 400px;
+  position: relative;
+  transition:  0.5s;
+  float: left;
+  margin-top: 200px;
+  margin-bottom: 300px;
+  margin-left: 300px;
+}
+
+.divclicked{
+  width: 500px;
+  height: 500px;
+  position: relative;
+  transition:   0.5s;
+  float: left;
+  margin-top: 150px;
+  margin-bottom: 250px;
+  margin-left: 250px;
+ 
+}
+
+
+
+.TaylorSwift img{
+  position: absolute;
+}
+.TaylorSwift_文本{
+  width: 500px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 75px;
+  margin-bottom: 250px;
+  margin-left: 250px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 19px;
+  letter-spacing: 2px;
+  transform: translateY(-30px);
+  border: solid transparent;
+  border-radius: 15px;
+  
+} 
+.TaylorSwift_audio{
+  width: 500px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 180px;
+  margin-bottom: 250px;
+  margin-left: 950px;
+  position: absolute;
+  opacity: 0;
+}
+.TaylorSwift_audioclicked{
+  transform: translateX(30px);
+ 
+  opacity: 1;
+  z-index: 10; 
+  transition-delay: 0.7s;
+  
+}
+.TaylorSwift_文本clicked{
+  width: 500px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 75px;
+  margin-bottom: 250px;
+  margin-left: 250px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 19px;
+  letter-spacing: 2px;
+  transform: translateY(-30px);
+  border-radius: 15px;
+  
+  opacity: 0;
+} 
+.TaylorSwift_文本:hover{
+  transition: 0.5s;
+  box-shadow: 0 0px 15px 8px  rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+}
+.TaylorSwift_文本 strong{
+  color: white;
+  text-shadow:   
+    -2px -2px 2px #58b530,    
+     2px -2px 2px #58b530,  
+    -2px  2px 2px #58b530,  
+     2px  2px 2px #58b530;
+  font-family: "微软雅黑";
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 22px;
+}
+.TaylorSwift_album{
+  z-index: 1;
+  width: 100%;
+  transition: 0.5s;
+  box-shadow: 0 0px 15px 8px  rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  
+}
+.TaylorSwift:hover .TaylorSwift_album{
+  box-shadow: 0 35px 35px -8px rgba(0, 0, 0, 0.75);
+  transform:perspective(500px) rotateX(30deg);
+  /* transition-duration: 0.5s; */
+  transition: 0.5s;
+  filter: blur(1px) brightness(75%);
+}
+.no-hover-effect:hover .TaylorSwift_album {
+  box-shadow: 0 0px 15px 8px  rgba(0, 0, 0, 0.5);
+  transform: none;  
+  transition: none;  
+  filter: none; 
+  transition: 0.5s;
+}
+
+.TaylorSwift_chracter{
+  z-index: 2;
+  width: 100%;
+  bottom: 0;
+  filter: brightness(150%);
+  transform: translatey(0%);
+  opacity: 0;
+  transition: 0.5s; 
+}
+.TaylorSwift:hover .TaylorSwift_chracter{
+  opacity: 1;
+  transform: perspective(500px) translate3d(0px,-11px ,50px);
+  transition: 0.5s;
+}
+.no-hover-effect:hover .TaylorSwift_chracter {
+  box-shadow: none;  
+  transform: none;  
+  transition: none;  
+  filter: none; 
+  transition: 0.5s;
+  opacity: 0;
+}
+
+
+.TaylorSwift_name{
+  width: 100%;
+  z-index: 3;
+  bottom: 0px;
+  opacity: 0; 
+  transform: translateY(10px);
+  transition: 0.5s;
+}
+.TaylorSwift:hover .TaylorSwift_name{
+  transition: 0.5s;
+  opacity: 1;
+  filter: brightness(120%);
+  transform: perspective(500px) translate3d(0px,-10px ,40px);
+}
+.no-hover-effect:hover .TaylorSwift_name {
+  box-shadow: none;  
+  transform: none;  
+  transition: none;  
+  filter: none; 
+  transition: 0.5s;
+  opacity: 0;
+}
+
+.TaylorSwift_vinyl{
+  transition: 0.5s;
+  z-index: 0;
+  width: 100%;
+  transition: 0.5s;
+  border-radius: 15px;
+  opacity: 0;
+}
+.TaylorSwift_vinylclicked{
+  z-index: 0;
+  width: 100%;
+  transition: 0.3s;
+  border-radius: 15px;
+  opacity: 1;
+  animation: moveout 0.5s  ease-in-out forwards 0.5s,spin 5s infinite linear 1s ;
+}
+@keyframes moveout{
+  from{
+    transform: translatex(0);
+  }
+  to{
+    transform: translatex(180px);
+  }
+
+}
+@keyframes spin {    
+  0%{  
+    transform:translateX(180px) rotate(0deg);
+  }  
+  100%{
+    transform:translateX(180px) rotate(360deg);
+  } 
+}  
+
+.TaylorSwift_movement{
+  z-index: 4;
+  width: 100%;
+  transition: 0.1s;
+  border-radius: 15px;
+  position: relative;
+  opacity: 0;
+}
+.TaylorSwift_movement_clicked{
+  z-index: 4;
+  width: 100%;
+  transition: 0.5s;
+  border-radius: 15px;
+  position: relative;
+  opacity: 1;
+  transition-delay: 0.5s;
+}
+
+
+.Fearless img{
+  position: absolute;
+}
+.Fearless_album{
+  z-index: 1;
+  width: 100%;
+  transition: 0.5s;
+  box-shadow: 0 0px 15px 8px  rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+}
+.Fearless:hover .Fearless_album{
+  box-shadow: 0 35px 35px -8px rgba(0, 0, 0, 0.75);
+  transform:perspective(500px) rotateX(30deg);
+  /* transition-duration: 0.5s; */
+  transition: 0.5s;
+  filter: blur(1px) brightness(75%);
+}
+.no-hover-effect:hover .Fearless_album {
+  box-shadow: 0 0px 15px 8px  rgba(0, 0, 0, 0.5);
+  transform: none;  
+  transition: none;  
+  filter: none; 
+  transition: 0.5s;
+}
+.Fearless_chracter{
+  z-index: 2;
+  width: 70%;
+  bottom: 0;
+  transform: translatex(20%);
+  opacity: 0;
+  transition: 0.5s; 
+}
+.Fearless:hover .Fearless_chracter{
+  opacity: 1;
+  transform: perspective(500px) translate3d(50px,-8px ,50px);
+  transition: 0.5s;
+}
+.no-hover-effect:hover .Fearless_chracter{
+  z-index: 2;
+  width: 70%;
+  bottom: 0;
+  transform: translatex(20%);
+  opacity: 0;
+  transition: 0.5s; 
+}
+.Fearless_name{
+  width: 100%;
+  z-index: 3;
+  bottom: 0px;
+  opacity: 0; 
+  transition: 0.5s;
+}
+.Fearless:hover .Fearless_name{
+  transition: 0.5s;
+  opacity: 1;
+  filter: brightness(120%);
+  transform: perspective(500px) translate3d(0px,-25px ,50px);
+}
+.no-hover-effect:hover .Fearless_name {
+  box-shadow: none;  
+  transform: none;  
+  transition: none;  
+  filter: none; 
+  transition: 0.5s;
+  opacity: 0;
+}
+.Fearless_vinyl{
+  z-index: 0;
+  width: 105%;
+  transition: 0.3s;
+  border-radius: 15px;
+  margin-top: 15px;
+  opacity: 0;
+  transform: translate3d(0,-7px,0);
+  
+}
+.Fearless_vinylclicked{
+  z-index: 0;
+  width: 92%;
+  box-shadow:  0 0px 15px 8px  rgba(0, 0, 0, 0.5);
+  border-radius: 600px;
+  opacity: 1;
+  animation: fmoveout 0.5s  ease-in-out forwards 0.5s,fspin 5s infinite linear 1s ;
+}
+@keyframes fmoveout{
+  from{
+    transform: translate3d(0,1px,0);
+  }
+  to{
+    transform: translate3d(190px,1px,0);
+  }
+
+}
+@keyframes fspin {    
+  0%{  
+    transform:translate3d(190px,1px,0) rotate(0deg);
+  }  
+  100%{
+    transform:translate3d(190px,1px,0) rotate(360deg);
+  } 
+}  
+.Fearless_audio{
+  width: 500px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 1100px;
+  margin-bottom: 250px;
+  margin-left: 950px;
+  position: absolute;
+  opacity: 0;
+}
+.Fearless_audioclicked{
+  transform: translateX(30px);
+  opacity: 1;
+  z-index: 10; 
+  transition-delay: 0.7s;
+}
+.Fearless_文本{
+  width: 500px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 54px;
+  margin-bottom: 250px;
+  margin-left: 250px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 19px;
+  letter-spacing: 2px;
+  transform: translateY(-30px);
+  border: solid transparent;
+  border-radius: 15px;
+} 
+
+.Fearless_文本clicked{
+  width: 500px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 54px;
+  margin-bottom: 250px;
+  margin-left: 250px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 19px;
+  letter-spacing: 2px;
+  transform: translateY(-30px);
+  border-radius: 15px;
+  opacity: 0;
+} 
+.Fearless_文本:hover{
+  transition: 0.5s;
+  box-shadow: 0 0px 15px 8px  rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+}
+.Fearless_文本 strong{
+  color: rgb(255, 236, 183);
+  text-shadow:   
+    -2px -2px 2px rgba(159, 109, 52,1),    
+     2px -2px 2px rgba(159, 109, 52,1),  
+    -2px  2px 2px rgba(159, 109, 52,1),  
+     2px  2px 2px rgba(159, 109, 52,1);
+  font-family: "微软雅黑";
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 22px;
+}
+
+.Speaknow img{
+  position: absolute;
+}
+.Speaknow_album{
+  z-index: 1;
+  width: 100%;
+  transition: 0.5s;
+  box-shadow: 0 0px 15px 8px  rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+}
+.Speaknow:hover .Speaknow_album{
+  box-shadow: 0 35px 35px -8px rgba(0, 0, 0, 0.75);
+  transform:perspective(500px) rotateX(30deg);
+  /* transition-duration: 0.5s; */
+  transition: 0.5s;
+  filter: blur(1px) brightness(75%);
+}
+.no-hover-effect:hover .Speaknow_album {
+  box-shadow: 0 0px 15px 8px  rgba(0, 0, 0, 0.5);
+  transform: none;  
+  transition: none;  
+  filter: none; 
+  transition: 0.5s;
+}
+.Speaknow_audio{
+  width: 500px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 2010px;
+  margin-bottom: 250px;
+  margin-left: 950px;
+  position: absolute;
+  opacity: 0;
+}
+.Speaknow_audioclicked{
+  transform: translateX(30px);
+  opacity: 1;
+  z-index: 10; 
+  transition-delay: 0.7s;
+}
+.Speaknow_文本{
+  width: 500px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 54px;
+  margin-bottom: 250px;
+  margin-left: 250px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 19px;
+  letter-spacing: 2px;
+  transform: translateY(-30px);
+  border-radius: 15px;
+} 
+
+.Speaknow_文本clicked{
+  width: 500px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 54px;
+  margin-bottom: 250px;
+  margin-left: 250px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 19px;
+  letter-spacing: 2px;
+  transform: translateY(-30px);
+  border: solid transparent;
+  border-radius: 15px;
+  opacity: 0;
+} 
+.Speaknow_文本:hover{
+  transition: 0.5s;
+  box-shadow: 0 0px 15px 8px  rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+}
+.Speaknow_文本 strong{
+  color: #e6a9cf;
+  text-shadow:   
+    -2px -2px 2px #863077,    
+    2px -2px 2px #863077, 
+    -2px  2px 2px #863077,  
+    2px  2px 2px #863077;
+  font-family: "微软雅黑";
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 22px;
+}
+.Speaknow_chracter{
+  z-index: 2;
+  width: 100%;
+  bottom: 0;
+  transform: translatex(0%);
+  opacity: 0;
+  transition: 0.5s; 
+}
+.Speaknow:hover .Speaknow_chracter{
+  opacity: 1;
+  transform: perspective(500px) translate3d(0px,-1px ,40px);
+  transition: 0.5s;
+}
+.no-hover-effect:hover .Speaknow_chracter {
+  z-index: 2;
+  width: 100%;
+  bottom: 0;
+  transform: translatex(0%);
+  opacity: 0;
+  transition: 0.5s; 
+}
+.Speaknow_name{
+  width: 100%;
+  z-index: 3;
+  bottom: 0px;
+  opacity: 0; 
+  transition: 0.5s;
+}
+.Speaknow:hover .Speaknow_name{
+  transition: 0.5s;
+  opacity: 1;
+  filter: brightness(120%);
+  transform: perspective(500px) translate3d(0px,-25px ,50px);
+}
+.no-hover-effect:hover .Speaknow_name {
+  box-shadow: none;  
+  transform: none;  
+  transition: none;  
+  filter: none; 
+  transition: 0.5s;
+  opacity: 0;
+}
+.Speaknow_vinyl{
+  transition: 0.5s;
+  z-index: 0;
+  width: 105%;
+  transition: 0.5s;
+  border-radius: 15px;
+  opacity: 0;
+  transform: translate3d(0,-7px,0);
+  
+}
+.Speaknow_vinylclicked{
+  z-index: 0;
+  width: 105%;
+  transition: 0.3s;
+  border-radius: 15px;
+  opacity: 1;
+  animation: moveout 0.5s  ease-in-out forwards 0.5s,spin 5s infinite linear 1s ;
+}
+@keyframes moveout{
+  from{
+    transform: translate3d(0,-7px,0);
+  }
+  to{
+    transform: translate3d(180px,-7px,0);
+  }
+
+}
+@keyframes spin {    
+  0%{  
+    transform:translate3d(180px,-7px,0) rotate(0deg);
+  }  
+  100%{
+    transform:translate3d(180px,-7px,0) rotate(360deg);
+  } 
+}  
+
+
+.red img{
+  position: absolute;
+}
+.red_album{
+  z-index: 1;
+  width: 100%;
+  transition: 0.5s;
+  box-shadow: 0 0px 15px 8px  rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+}
+.red:hover .red_album{
+  box-shadow: 0 35px 35px -8px rgba(0, 0, 0, 0.75);
+  transform:perspective(500px) rotateX(30deg);
+  transition: 0.5s;
+  filter: blur(1px) brightness(75%);
+}
+.no-hover-effect:hover .red_album {
+  box-shadow: 0 0px 15px 8px  rgba(0, 0, 0, 0.5);
+  transform: none;  
+  transition: none;  
+  filter: none; 
+  transition: 0.5s;
+}
+.red_audio{
+  width: 500px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 2920px;
+  margin-bottom: 250px;
+  margin-left: 950px;
+  position: absolute;
+  opacity: 0;
+}
+.red_audioclicked{
+  transform: translateX(30px);
+  opacity: 1;
+  z-index: 10; 
+  transition-delay: 0.7s;
+}
+.red_文本{
+  width: 500px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 50px;
+  margin-bottom: 250px;
+  margin-left: 250px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 19px;
+  letter-spacing: 2px;
+  transform: translateY(-30px);
+  border: solid transparent;
+  border-radius: 15px;
+} 
+
+.red_文本clicked{
+ 
+  transform: translateY(-30px);
+  border-radius: 15px;
+  opacity: 0;
+} 
+.red_文本:hover{
+  transition: 0.5s;
+  box-shadow: 0 0px 15px 8px  rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+}
+.red_文本 strong{
+  color: #bcad8e;
+  text-shadow:   
+  -2px -2px 2px  #a91247,    
+   2px -2px 2px  #a91247,  
+  -2px  2px 2px  #a91247,  
+   2px  2px 2px  #a91247;
+  font-family: "微软雅黑";
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 22px;
+}
+.red_chracter{
+  z-index: 2;
+  width: 75%;
+  bottom: 0;
+  transform: translatex(10%);
+  opacity: 0;
+  transition: 0.5s; 
+}
+.red:hover .red_chracter{
+  opacity: 1;
+  transform: perspective(500px) translate3d(10%,-5px ,50px);
+  transition: 0.5s;
+}
+
+.no-hover-effect:hover .red_chracter {
+  z-index: 2;
+  width: 75%;
+  bottom: 0;
+  transform: translatex(10%);
+  opacity: 0;
+  transition: 0.5s; 
+}
+
+.red_name{
+  width: 100%;
+  z-index: 3;
+  bottom: 0px;
+  opacity: 0;
+  transform: translateY(0px);
+  transition: 0.5s;
+}
+.red:hover .red_name{
+  transition: 0.5s;
+  opacity: 1;
+  filter: brightness(120%);
+  transform: perspective(500px) translate3d(0px,-30px ,50px);
+}
+.no-hover-effect:hover .red_name {
+  box-shadow: none;  
+  transform: none;  
+  transition: none;  
+  filter: none; 
+  transition: 0.5s;
+  opacity: 0;
+}
+
+.red_vinyl{
+  transition: 0.5s;
+  z-index: 0;
+  width: 105%;
+  transition: 0.5s;
+  border-radius: 15px;
+  opacity: 0;
+  transform: translate3d(0,-7px,0);
+  
+}
+.red_vinylclicked{
+  z-index: 0;
+  width: 105%;
+  transition: 0.3s;
+  border-radius: 15px;
+  opacity: 1;
+  animation: moveout 0.5s  ease-in-out forwards 0.5s,spin 5s infinite linear 1s ;
+}
+@keyframes moveout{
+  from{
+    transform: translate3d(0,-7px,0);
+  }
+  to{
+    transform: translate3d(180px,-7px,0);
+  }
+
+}
+@keyframes spin {    
+  0%{  
+    transform:translate3d(180px,-7px,0) rotate(0deg);
+  }  
+  100%{
+    transform:translate3d(180px,-7px,0) rotate(360deg);
+  } 
+}  
+
+.o1989 img{
+  position: absolute;
+}
+.o1989_album{
+  z-index: 1;
+  width: 100%;
+  transition: 0.5s;
+  box-shadow: 0 0px 15px 8px  rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+}
+.o1989:hover .o1989_album{
+  box-shadow: 0 35px 35px -8px rgba(0, 0, 0, 0.75);
+  transform:perspective(500px) rotateX(30deg);
+  transition: 0.5s;
+  filter: blur(1px) brightness(75%);
+}
+.no-hover-effect:hover .o1989_album {
+  box-shadow: 0 0px 15px 8px  rgba(0, 0, 0, 0.5);
+  transform: none;  
+  transition: none;  
+  filter: none; 
+  transition: 0.5s;
+}
+.o1989_audio{
+  width: 500px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 3830px;
+  margin-bottom: 250px;
+  margin-left: 950px;
+  position: absolute;
+  opacity: 0;
+}
+.o1989_audioclicked{
+  transform: translateX(30px);
+  opacity: 1;
+  z-index: 10; 
+  transition-delay: 0.7s;
+}
+.o1989_文本{
+  width: 500px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 54px;
+  margin-bottom: 250px;
+  margin-left: 250px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 19px;
+  letter-spacing: 2px;
+  transform: translateY(-30px);
+  border: solid transparent;
+  border-radius: 15px;
+} 
+
+.o1989_文本clicked{
+  width: 500px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 54px;
+  margin-bottom: 250px;
+  margin-left: 250px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 19px;
+  letter-spacing: 2px;
+  transform: translateY(-30px);
+  border-radius: 15px;
+  opacity: 0;
+} 
+.o1989_文本:hover{
+  transition: 0.5s;
+  box-shadow: 0 0px 15px 8px  rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+}
+.o1989_文本 strong{
+  color: white;
+  text-shadow:   
+    -2px -2px 2px #866d83,    
+     2px -2px 2px #866d83,  
+    -2px  2px 2px #866d83,  
+     2px  2px 2px #866d83;
+  font-family: "微软雅黑";
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 22px;
+}
+.o1989_chracter{
+  z-index: 2;
+  width: 100%;
+  bottom: 0;
+  opacity: 0;
+  transition: 0.5s; 
+}
+.o1989:hover .o1989_chracter{
+  opacity: 1;
+  transform: perspective(500px) translate3d(0%,-8px ,50px);
+  transition: 0.5s;
+}
+
+.no-hover-effect:hover .o1989_chracter {
+  z-index: 2;
+  width: 100%;
+  bottom: 0;
+  opacity: 0;
+  transition: 0.1s; 
+}
+
+.o1989_name{
+  width: 100%;
+  z-index: 3;
+  bottom: 0px;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: 0.5s;
+}
+.o1989:hover .o1989_name{
+  transition: 0.5s;
+  opacity: 1;
+  filter: brightness(120%);
+  transform: perspective(500px) translate3d(0px,-10px ,50px);
+}
+.no-hover-effect:hover .o1989_name {
+  box-shadow: none;  
+  transform: none;  
+  transition: none;  
+  filter: none; 
+  transition: 0.5s;
+  opacity: 0;
+}
+
+.o1989_vinyl{
+  transition: 0.5s;
+  z-index: 0;
+  width: 105%;
+  transition: 0.5s;
+  border-radius: 15px;
+  opacity: 0;
+  transform: translate3d(0,-7px,0);
+  
+}
+.o1989_vinylclicked{
+  z-index: 0;
+  width: 105%;
+  transition: 0.3s;
+  border-radius: 15px;
+  opacity: 1;
+  animation: moveout 0.5s  ease-in-out forwards 0.5s,spin 5s infinite linear 1s ;
+}
+@keyframes moveout{
+  from{
+    transform: translate3d(0,-7px,0);
+  }
+  to{
+    transform: translate3d(180px,-7px,0);
+  }
+
+}
+@keyframes spin {    
+  0%{  
+    transform:translate3d(180px,-7px,0) rotate(0deg);
+  }  
+  100%{
+    transform:translate3d(180px,-7px,0) rotate(360deg);
+  } 
+}  
+
+
+.reputation img{
+  position: absolute;
+}
+.reputation_album{
+  z-index: 1;
+  width: 100%;
+  transition: 0.5s;
+  box-shadow: 0 0px 15px 8px  rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+}
+.reputation:hover .reputation_album{
+  box-shadow: 0 35px 35px -8px rgba(0, 0, 0, 0.75);
+  transform:perspective(500px) rotateX(30deg);
+  /* transition-duration: 0.5s; */
+  transition: 0.5s;
+  filter: blur(1px) brightness(75%);
+}
+.no-hover-effect:hover .reputation_album {
+  box-shadow: 0 0px 15px 8px  rgba(0, 0, 0, 0.5);
+  transform: none;  
+  transition: none;  
+  filter: none; 
+  transition: 0.5s;
+}
+.reputation_audio{
+  width: 500px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 4740px;
+  margin-bottom: 250px;
+  margin-left: 950px;
+  position: absolute;
+  opacity: 0;
+}
+.reputation_audioclicked{
+  transform: translateX(30px);
+  opacity: 1;
+  z-index: 10; 
+  transition-delay: 0.7s;
+}
+.reputation_文本{
+  color: white;
+  width: 500px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 80px;
+  margin-bottom: 250px;
+  margin-left: 250px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 19px;
+  letter-spacing: 2px;
+  transform: translateY(-30px);
+  border: solid transparent;
+  border-radius: 15px;
+} 
+
+.reputation_文本clicked{
+  width: 500px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 54px;
+  margin-bottom: 250px;
+  margin-left: 250px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 19px;
+  letter-spacing: 2px;
+  transform: translateY(-30px);
+  border-radius: 15px;
+  opacity: 0;
+} 
+.reputation_文本:hover{
+  transition: 0.5s;
+  box-shadow: 0 0px 15px 8px  rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+}
+.reputation_文本 strong{
+  color: black;
+  text-shadow:   
+  -2px -2px 2px #ffffff,    
+  2px -2px 2px #ffffff,  
+ -2px  2px 2px #ffffff,  
+  2px  2px 2px #ffffff;
+  font-family: "微软雅黑";
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 22px;
+}
+.reputation_chracter{
+  z-index: 2;
+  width: 80%;
+  bottom: 0;
+  transform: translatex(10%);
+  opacity: 0;
+  transition: 0.5s; 
+}
+.reputation:hover .reputation_chracter{
+  opacity: 1;
+  transform: perspective(500px) translate3d(20px,-3px ,50px);
+  transition: 0.5s;
+}
+.no-hover-effect:hover .reputation_chracter {
+  z-index: 2;
+  width: 80%;
+  bottom: 0;
+  transform: translatex(10%);
+  opacity: 0;
+  transition: 0.5s; 
+}
+
+.reputation_name{
+  width: 100%;
+  z-index: 3;
+  bottom: 0px;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: 0.5s;
+}
+.reputation:hover .reputation_name{
+  transition: 0.5s;
+  opacity: 1;
+  filter: brightness(120%);
+  transform: perspective(500px) translate3d(0px,-1px ,50px);
+}
+.no-hover-effect:hover .reputation_name {
+  box-shadow: none;  
+  transform: none;  
+  transition: none;  
+  filter: none; 
+  transition: 0.5s;
+  opacity: 0;
+}
+.reputation_vinyl{
+  transition: 0.5s;
+  z-index: 0;
+  width: 105%;
+  transition: 0.5s;
+  border-radius: 15px;
+  opacity: 0;
+  transform: translate3d(0,-7px,0);
+  
+}
+.reputation_vinylclicked{
+  z-index: 0;
+  width: 105%;
+  transition: 0.3s;
+  border-radius: 15px;
+  opacity: 1;
+  animation: moveout 0.5s  ease-in-out forwards 0.5s,spin 5s infinite linear 1s ;
+}
+@keyframes moveout{
+  from{
+    transform: translate3d(0,-7px,0);
+  }
+  to{
+    transform: translate3d(180px,-7px,0);
+  }
+
+}
+@keyframes spin {    
+  0%{  
+    transform:translate3d(180px,-7px,0) rotate(0deg);
+  }  
+  100%{
+    transform:translate3d(180px,-7px,0) rotate(360deg);
+  } 
+}  
+
+.lover img{
+  position: absolute;
+}
+.lover_album{
+  z-index: 1;
+  width: 100%;
+  transition: 0.5s;
+  box-shadow: 0 0px 15px 8px  rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+}
+.lover:hover .lover_album{
+  box-shadow: 0 35px 35px -8px rgba(0, 0, 0, 0.75);
+  transform:perspective(500px) rotateX(30deg);
+  transition: 0.5s;
+  filter: blur(1px) brightness(75%);
+}
+.no-hover-effect:hover .lover_album {
+  box-shadow: 0 0px 15px 8px  rgba(0, 0, 0, 0.5);
+  transform: none;  
+  transition: none;  
+  filter: none; 
+  transition: 0.5s;
+}
+.lover_audio{
+  width: 500px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 5650px;
+  margin-bottom: 250px;
+  margin-left: 950px;
+  position: absolute;
+  opacity: 0;
+}
+.lover_audioclicked{
+  transform: translateX(30px);
+  opacity: 1;
+  z-index: 10; 
+  transition-delay: 0.7s;
+}
+.lover_文本{
+  width: 500px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 80px;
+  margin-bottom: 250px;
+  margin-left: 250px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 19px;
+  letter-spacing: 2px;
+  transform: translateY(-30px);
+  /* border: solid transparent; */
+  border-radius: 15px;
+} 
+
+.lover_文本clicked{
+  width: 500px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 54px;
+  margin-bottom: 250px;
+  margin-left: 250px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 19px;
+  letter-spacing: 2px;
+  transform: translateY(-30px);
+  border: solid transparent;
+  border-radius: 15px;
+  opacity: 0;
+} 
+.lover_文本:hover{
+  transition: 0.5s;
+  /* border: solid rgb(98, 96, 96) ; */
+  border-radius: 15px;
+   box-shadow: 0 0px 15px 8px  rgba(0, 0, 0, 0.3);
+}
+.lover_文本 strong{
+  color: #ffedbb;
+  text-shadow:   
+  -2px -2px 2px #79bbde,    
+   2px -2px 2px #79bbde,  
+  -2px  2px 2px #79bbde,  
+   2px  2px 2px #79bbde;
+  font-family: "微软雅黑";
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 22px;
+}
+.lover_chracter{
+  z-index: 2;
+  width: 100%;
+  bottom: 0;
+  opacity: 0;
+  transition: 0.5s; 
+}
+.lover:hover .lover_chracter{
+  opacity: 1;
+  transform: perspective(500px) translate3d(0%,-7px ,50px);
+  transition: 0.5s;
+}
+
+.no-hover-effect:hover .lover_chracter {
+  z-index: 2;
+  width: 100%;
+  bottom: 0;
+  transition: 0.5s; 
+  opacity: 0;
+}
+
+.lover_name{
+  width: 120%;
+  z-index: 3;
+  bottom: 0px;
+  opacity: 0;
+  transform: translateY(20px);
+  transform: translateX(-30px);
+  transition: 0.5s;
+}
+.lover:hover .lover_name{
+  transition: 0.5s;
+  opacity: 1;
+  transform: perspective(500px) translate3d(-30px,-1px ,50px);
+}
+.no-hover-effect:hover .lover_name {
+  width: 120%;
+  z-index: 3;
+  bottom: 0px;
+  opacity: 0;
+  transform: translateY(20px);
+  transform: translateX(-30px);
+  transition: 0.5s;
+}
+
+.lover_vinyl{
+  transition: 0.5s;
+  z-index: 0;
+  width: 105%;
+  transition: 0.5s;
+  border-radius: 15px;
+  opacity: 0;
+  transform: translate3d(0,-7px,0);
+  
+}
+.lover_vinylclicked{
+  z-index: 0;
+  width: 105%;
+  transition: 0.3s;
+  border-radius: 15px;
+  opacity: 1;
+  animation: moveout 0.5s  ease-in-out forwards 0.5s,spin 5s infinite linear 1s ;
+}
+@keyframes moveout{
+  from{
+    transform: translate3d(0,-7px,0);
+  }
+  to{
+    transform: translate3d(180px,-7px,0);
+  }
+
+}
+@keyframes spin {    
+  0%{  
+    transform:translate3d(180px,-7px,0) rotate(0deg);
+  }  
+  100%{
+    transform:translate3d(180px,-7px,0) rotate(360deg);
+  } 
+}  
+
+.lover_movement{
+  z-index: 4;
+  width: 100%;
+  transition: 0.1s;
+  border-radius: 15px;
+  position: relative;
+  opacity: 0;
+}
+.lover_movement_clicked{
+  z-index: 4;
+  width: 100%;
+  transition: 0.5s;
+  border-radius: 15px;
+  position: relative;
+  opacity: 1;
+  transition-delay: 0.5s;
+}
+
+.folklore img{
+  position: absolute;
+}
+.folklore_album{
+  z-index: 1;
+  width: 100%;
+  transition: 0.5s;
+  box-shadow: 0 0px 15px 8px  rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+}
+.folklore:hover .folklore_album{
+  box-shadow: 0 35px 35px -8px rgba(0, 0, 0, 0.75);
+  transform:perspective(500px) rotateX(30deg);
+  transition: 0.5s;
+  filter: blur(1px) brightness(75%);
+}
+.no-hover-effect:hover .folklore_album {
+  box-shadow: 0 0px 15px 8px  rgba(0, 0, 0, 0.5);
+  transform: none;  
+  transition: none;  
+  filter: none; 
+  transition: 0.5s;
+}
+.folklore_audio{
+  width: 500px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 6590px;
+  margin-bottom: 250px;
+  margin-left: 950px;
+  position: absolute;
+  opacity: 0;
+}
+.folklore_audioclicked{
+  transform: translateX(30px);
+  opacity: 1;
+  z-index: 10; 
+  transition-delay: 0.7s;
+}
+.folklore_文本{
+  width: 500px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 70px;
+  margin-bottom: 250px;
+  margin-left: 250px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 19px;
+  letter-spacing: 2px;
+  transform: translateY(-30px);
+  /* border: solid transparent; */
+  border-radius: 15px;
+} 
+
+.folklore_文本clicked{
+  width: 500px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 54px;
+  margin-bottom: 250px;
+  margin-left: 250px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 19px;
+  letter-spacing: 2px;
+  transform: translateY(-30px);
+  border: solid transparent;
+  border-radius: 15px;
+  opacity: 0;
+} 
+.folklore_文本:hover{
+  transition: 0.5s;
+  /* border: solid rgb(98, 96, 96) ; */
+  box-shadow: 0 0px 15px 8px  rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+}
+.folklore_文本 strong{
+  color: white;
+  text-shadow:   
+  -2px -2px 2px #3a3a3a,    
+   2px -2px 2px #3a3a3a,  
+  -2px  2px 2px #3a3a3a,  
+   2px  2px 2px #3a3a3a;
+  font-family: "微软雅黑";
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 22px;
+}
+.folklore_chracter{
+  z-index: 2;
+  width: 80%;
+  bottom: 0;
+  transform: translatex(10%);
+  opacity: 0;
+  transition: 0.5s; 
+}
+.folklore:hover .folklore_chracter{
+  opacity: 1;
+  transform: perspective(500px) translate3d(10%,-8px ,50px);
+  transition: 0.5s;
+}
+
+.no-hover-effect:hover .folklore_chracter {
+  z-index: 2;
+  width: 80%;
+  bottom: 0;
+  transform: translatex(10%);
+  opacity: 0;
+  transition: 0.5s; 
+}
+
+.folklore_name{
+  width: 100%;
+  z-index: 3;
+  bottom: 0px;
+  opacity: 0;
+  transform: translateY(40px);
+  transition: 0.5s;
+}
+.folklore:hover .folklore_name{
+  transition: 0.5s;
+  opacity: 1;
+  transform: perspective(500px) translate3d(0px,20px ,50px);
+}
+.no-hover-effect:hover .folklore_name {
+  box-shadow: none;  
+  transform: none;  
+  transition: none;  
+  filter: none; 
+  transition: 0.5s;
+  opacity: 0;
+}
+
+.folklore_vinyl{
+  transition: 0.5s;
+  z-index: 0;
+  width: 105%;
+  transition: 0.5s;
+  border-radius: 15px;
+  opacity: 0;
+  transform: translate3d(0,-7px,0);
+  
+}
+.folklore_vinylclicked{
+  z-index: 0;
+  width: 105%;
+  transition: 0.3s;
+  border-radius: 15px;
+  opacity: 1;
+  animation: moveout 0.5s  ease-in-out forwards 0.5s,spin 5s infinite linear 1s ;
+}
+@keyframes moveout{
+  from{
+    transform: translate3d(0,-7px,0);
+  }
+  to{
+    transform: translate3d(180px,-7px,0);
+  }
+
+}
+@keyframes spin {    
+  0%{  
+    transform:translate3d(180px,-7px,0) rotate(0deg);
+  }  
+  100%{
+    transform:translate3d(180px,-7px,0) rotate(360deg);
+  } 
+}  
+
+.folklore_movement{
+  z-index: 4;
+  width: 100%;
+  transition: 0.1s;
+  border-radius: 15px;
+  position: relative;
+  opacity: 0;
+}
+.folklore_movement_clicked{
+  z-index: 4;
+  width: 100%;
+  transition: 0.5s;
+  border-radius: 15px;
+  position: relative;
+  opacity: 1;
+  transition-delay: 0.5s;
+}
+
+
+.divclicked{
+  width: 500px;
+  height: 500px;
+  position: relative;
+  transition:   0.5s;
+  float: left;
+  margin-top: 150px;
+  margin-bottom: 250px;
+  margin-left: 250px;
+ 
+}
+.evermore img{
+  position: absolute;
+}
+.evermore_album{
+  z-index: 1;
+  width: 100%;
+  transition: 0.5s;
+  box-shadow: 0 0px 15px 8px  rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+}
+.evermore:hover .evermore_album{
+  box-shadow: 0 35px 35px -8px rgba(0, 0, 0, 0.75);
+  transform:perspective(500px) rotateX(30deg);
+  transition: 0.5s;
+  filter: blur(1px) brightness(75%);
+}
+.no-hover-effect:hover .evermore_album {
+  box-shadow: 0 0px 15px 8px  rgba(0, 0, 0, 0.5);
+  transform: none;  
+  transition: none;  
+  filter: none; 
+  transition: 0.5s;
+}
+.evermore_audio{
+  width: 500px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 7500px;
+  margin-bottom: 250px;
+  margin-left: 950px;
+  position: absolute;
+  opacity: 0;
+}
+.evermore_audioclicked{
+  transform: translateX(30px);
+  opacity: 1;
+  z-index: 10; 
+  transition-delay: 0.7s;
+}
+.evermore_文本{
+  width: 500px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 54px;
+  margin-bottom: 250px;
+  margin-left: 250px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 19px;
+  letter-spacing: 2px;
+  transform: translateY(-30px);
+  /* border: solid transparent; */
+  border-radius: 15px;
+} 
+
+.evermore_文本clicked{
+  width: 500px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 54px;
+  margin-bottom: 250px;
+  margin-left: 250px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 19px;
+  letter-spacing: 2px;
+  transform: translateY(-30px);
+  border: solid transparent;
+  border-radius: 15px;
+  opacity: 0;
+} 
+.evermore_文本:hover{
+  transition: 0.5s;
+  box-shadow: 0 0px 15px 8px  rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+}
+.evermore_文本 strong{
+  color: #b17510;
+  text-shadow:   
+  -2px -2px 2px #321005,    
+   2px -2px 2px #321005,  
+  -2px  2px 2px #321005,  
+   2px  2px 2px #321005;
+  font-family: "微软雅黑";
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 22px;
+}
+.evermore_chracter{
+  z-index: 2;
+  width: 65%;
+  bottom: 0;
+  transform: translatex(28%);
+  opacity: 0;
+  transition: 0.5s; 
+}
+.evermore:hover .evermore_chracter{
+  opacity: 1;
+  transform: perspective(500px) translate3d(28%,-11px ,50px);
+  transition: 0.5s;
+}
+
+.no-hover-effect:hover .evermore_chracter {
+  z-index: 2;
+  width: 65%;
+  bottom: 0;
+  transform: translatex(28%);
+  opacity: 0;
+  transition: 0.5s; 
+  opacity: 0;
+}
+
+.evermore_name{
+  width: 100%;
+  z-index: 3;
+  bottom: 0px;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: 0.5s;
+}
+.evermore:hover .evermore_name{
+  transition: 0.5s;
+  opacity: 1;
+  transform: perspective(500px) translate3d(0px,-1px ,50px);
+}
+.no-hover-effect:hover .evermore_name {
+  box-shadow: none;  
+  transform: none;  
+  transition: none;  
+  filter: none; 
+  transition: 0.5s;
+  opacity: 0;
+}
+
+.evermore_vinyl{
+  transition: 0.5s;
+  z-index: 0;
+  width: 105%;
+  transition: 0.5s;
+  border-radius: 15px;
+  opacity: 0;
+  transform: translate3d(0,-7px,0);
+  
+}
+.evermore_vinylclicked{
+  z-index: 0;
+  width: 105%;
+  transition: 0.3s;
+  border-radius: 15px;
+  opacity: 1;
+  animation: moveout 0.5s  ease-in-out forwards 0.5s,spin 5s infinite linear 1s ;
+}
+@keyframes moveout{
+  from{
+    transform: translate3d(0,-7px,0);
+  }
+  to{
+    transform: translate3d(180px,-7px,0);
+  }
+
+}
+@keyframes spin {    
+  0%{  
+    transform:translate3d(180px,-7px,0) rotate(0deg);
+  }  
+  100%{
+    transform:translate3d(180px,-7px,0) rotate(360deg);
+  } 
+}  
+
+.evermore_movement{
+  z-index: 4;
+  width: 100%;
+  transition: 0.1s;
+  border-radius: 15px;
+  position: relative;
+  opacity: 0;
+}
+.evermore_movement_clicked{
+  z-index: 4;
+  width: 100%;
+  transition: 0.5s;
+  border-radius: 15px;
+  position: relative;
+  opacity: 1;
+  transition-delay: 0.5s;
+}
+
+.redtv img{
+  position: absolute;
+}
+.redtv_album{
+  z-index: 1;
+  width: 100%;
+  transition: 0.5s;
+  box-shadow: 0 0px 15px 8px  rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+}
+.redtv:hover .redtv_album{
+  box-shadow: 0 35px 35px -8px rgba(0, 0, 0, 0.75);
+  transform:perspective(500px) rotateX(30deg);
+  transition: 0.5s;
+  filter: blur(1px) brightness(75%);
+}
+.no-hover-effect:hover .redtv_album {
+  box-shadow: 0 0px 15px 8px  rgba(0, 0, 0, 0.5);
+  transform: none;  
+  transition: none;  
+  filter: none; 
+  transition: 0.5s;
+}
+.redtv_audio{
+  width: 500px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 9340px;
+  margin-bottom: 250px;
+  margin-left: 950px;
+  position: absolute;
+  opacity: 0;
+}
+.redtv_audioclicked{
+  transform: translateX(30px);
+  opacity: 1;
+  z-index: 10; 
+  transition-delay: 0.7s;
+}
+.redtv_文本{
+  width: 500px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 54px;
+  margin-bottom: 250px;
+  margin-left: 250px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 19px;
+  letter-spacing: 2px;
+  transform: translateY(-30px);
+  border-radius: 15px;
+} 
+
+.redtv_文本clicked{
+  width: 500px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 54px;
+  margin-bottom: 250px;
+  margin-left: 250px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 19px;
+  letter-spacing: 2px;
+  transform: translateY(-30px);
+  border: solid transparent;
+  border-radius: 15px;
+  opacity: 0;
+} 
+.redtv_文本:hover{
+  transition: 0.5s;
+  box-shadow: 0 0px 15px 8px  rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+}
+.redtv_文本 strong{
+  color: #bc7c56;
+  text-shadow:   
+  -2px -2px 2px #a12117,    
+   2px -2px 2px #a12117,  
+  -2px  2px 2px #a12117,  
+   2px  2px 2px #a12117;
+  font-family: "微软雅黑";
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 22px;
+}
+.redtv_chracter{
+  z-index: 2;
+  width: 80%;
+  bottom: 0;
+  transform: translatex(10%);
+  opacity: 0;
+  transition: 0.5s; 
+}
+.redtv:hover .redtv_chracter{
+  opacity: 1;
+  transform: perspective(500px) translate3d(10%,-11px ,50px);
+  transition: 0.5s;
+}
+
+.no-hover-effect:hover .redtv_chracter {
+  z-index: 2;
+  width: 80%;
+  bottom: 0;
+  transform: translatex(10%);
+  opacity: 0;
+  transition: 0.5s; 
+}
+
+.redtv_name{
+  width: 100%;
+  z-index: 3;
+  bottom: 0px;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: 0.5s;
+}
+.redtv:hover .redtv_name{
+  transition: 0.5s;
+  opacity: 1;
+  transform: perspective(500px) translate3d(0px,-20px ,50px);
+}
+.no-hover-effect:hover .redtv_name {
+  box-shadow: none;  
+  transform: none;  
+  transition: none;  
+  filter: none; 
+  transition: 0.5s;
+  opacity: 0;
+}
+
+.redtv_vinyl{
+  transition: 0.5s;
+  z-index: 0;
+  width: 105%;
+  transition: 0.5s;
+  border-radius: 15px;
+  opacity: 0;
+  transform: translate3d(0,-7px,0);
+  
+}
+.redtv_vinylclicked{
+  z-index: 0;
+  width: 105%;
+  transition: 0.3s;
+  border-radius: 15px;
+  opacity: 1;
+  animation: moveout 0.5s  ease-in-out forwards 0.5s,spin 5s infinite linear 1s ;
+}
+@keyframes moveout{
+  from{
+    transform: translate3d(0,-7px,0);
+  }
+  to{
+    transform: translate3d(180px,-7px,0);
+  }
+
+}
+@keyframes spin {    
+  0%{  
+    transform:translate3d(180px,-7px,0) rotate(0deg);
+  }  
+  100%{
+    transform:translate3d(180px,-7px,0) rotate(360deg);
+  } 
+}  
+
+.redtv_movement{
+  z-index: 4;
+  width: 100%;
+  transition: 0.1s;
+  border-radius: 15px;
+  position: relative;
+  opacity: 0;
+}
+.redtv_movement_clicked{
+  z-index: 4;
+  width: 100%;
+  transition: 0.5s;
+  border-radius: 15px;
+  position: relative;
+  opacity: 1;
+  transition-delay: 0.5s;
+}
+
+.fearlesstv img{
+  position: absolute;
+}
+.fearlesstv_album{
+  z-index: 1;
+  width: 100%;
+  transition: 0.5s;
+  box-shadow: 0 0px 15px 8px  rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+}
+.fearlesstv:hover .fearlesstv_album{
+  box-shadow: 0 35px 35px -8px rgba(0, 0, 0, 0.75);
+  transform:perspective(500px) rotateX(30deg);
+  transition: 0.5s;
+  filter: blur(1px) brightness(75%);
+}
+.no-hover-effect:hover .fearlesstv_album {
+  box-shadow: 0 0px 15px 8px  rgba(0, 0, 0, 0.5);
+  transform: none;  
+  transition: none;  
+  filter: none; 
+  transition: 0.5s;
+}
+.fearlesstv_audio{
+  width: 500px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 8410px;
+  margin-bottom: 250px;
+  margin-left: 950px;
+  position: absolute;
+  opacity: 0;
+}
+.fearlesstv_audioclicked{
+  transform: translateX(30px);
+  opacity: 1;
+  z-index: 10; 
+  transition-delay: 0.7s;
+}
+.fearlesstv_文本{
+  width: 500px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 85px;
+  margin-bottom: 250px;
+  margin-left: 250px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 19px;
+  letter-spacing: 2px;
+  transform: translateY(-30px);
+  border-radius: 15px;
+} 
+
+.fearlesstv_文本clicked{
+  width: 500px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 54px;
+  margin-bottom: 250px;
+  margin-left: 250px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 19px;
+  letter-spacing: 2px;
+  transform: translateY(-30px);
+  border: solid transparent;
+  border-radius: 15px;
+  opacity: 0;
+} 
+.fearlesstv_文本:hover{
+  transition: 0.5s;
+  box-shadow: 0 0px 15px 8px  rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+}
+.fearlesstv_文本 strong{
+  color: rgb(255, 236, 183);
+  text-shadow:   
+    -2px -2px 2px rgba(159, 109, 52,1),    
+     2px -2px 2px rgba(159, 109, 52,1),  
+    -2px  2px 2px rgba(159, 109, 52,1),  
+     2px  2px 2px rgba(159, 109, 52,1);
+  font-family: "微软雅黑";
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 22px;
+}
+.fearlesstv_chracter{
+  z-index: 2;
+  width: 100%;
+  bottom: 0;
+  opacity: 0;
+  transition: 0.5s; 
+}
+.fearlesstv:hover .fearlesstv_chracter{
+  opacity: 1;
+  transform: perspective(500px) translate3d(0%,-5px ,50px);
+  transition: 0.5s;
+}
+
+.no-hover-effect:hover .fearlesstv_chracter {
+  z-index: 2;
+  width: 100%;
+  bottom: 0;
+  opacity: 0;
+  transition: 0.5s; 
+}
+
+.fearlesstv_name{
+  width: 100%;
+  z-index: 3;
+  bottom: 0px;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: 0.5s;
+}
+.fearlesstv:hover .fearlesstv_name{
+  transition: 0.5s;
+  opacity: 1;
+  transform: perspective(500px) translate3d(0px,-1px ,50px);
+}
+.no-hover-effect:hover .fearlesstv_name {
+  box-shadow: none;  
+  transform: none;  
+  transition: none;  
+  filter: none; 
+  transition: 0.5s;
+  opacity: 0;
+}
+
+.fearlesstv_vinyl{
+  transition: 0.5s;
+  z-index: 0;
+  width: 105%;
+  transition: 0.5s;
+  border-radius: 15px;
+  opacity: 0;
+  transform: translate3d(0,-7px,0);
+  
+}
+.fearlesstv_vinylclicked{
+  z-index: 0;
+  width: 105%;
+  transition: 0.3s;
+  border-radius: 15px;
+  opacity: 1;
+  animation: moveout 0.5s  ease-in-out forwards 0.5s,spin 5s infinite linear 1s ;
+}
+@keyframes moveout{
+  from{
+    transform: translate3d(0,-7px,0);
+  }
+  to{
+    transform: translate3d(180px,-7px,0);
+  }
+
+}
+@keyframes spin {    
+  0%{  
+    transform:translate3d(180px,-7px,0) rotate(0deg);
+  }  
+  100%{
+    transform:translate3d(180px,-7px,0) rotate(360deg);
+  } 
+}  
+
+.fearlesstv_movement{
+  z-index: 4;
+  width: 100%;
+  transition: 0.1s;
+  border-radius: 15px;
+  position: relative;
+  opacity: 0;
+}
+.fearlesstv_movement_clicked{
+  z-index: 4;
+  width: 100%;
+  transition: 0.5s;
+  border-radius: 15px;
+  position: relative;
+  opacity: 1;
+  transition-delay: 0.5s;
+}
+
+
+.midnights img{
+  position: absolute;
+}
+.midnights_album{
+  z-index: 1;
+  width: 100%;
+  transition: 0.5s;
+  box-shadow: 0 0px 15px 8px  rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+}
+.midnights:hover .midnights_album{
+  box-shadow: 0 35px 35px -8px rgba(0, 0, 0, 0.75);
+  transform:perspective(500px) rotateX(30deg);
+  transition: 0.5s;
+  filter: blur(1px) brightness(75%);
+}
+.no-hover-effect:hover .midnights_album {
+  box-shadow: 0 0px 15px 8px  rgba(0, 0, 0, 0.5);
+  transform: none;  
+  transition: none;  
+  filter: none; 
+  transition: 0.5s;
+}
+.midnights_audio{
+  width: 500px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 10250px;
+  margin-bottom: 250px;
+  margin-left: 950px;
+  position: absolute;
+  opacity: 0;
+}
+.midnights_audioclicked{
+  transform: translateX(30px);
+  opacity: 1;
+  z-index: 10; 
+  transition-delay: 0.7s;
+}
+.midnights_文本{
+  width: 500px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 85px;
+  margin-bottom: 250px;
+  margin-left: 250px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 19px;
+  letter-spacing: 2px;
+  transform: translateY(-30px);
+  border-radius: 15px;
+} 
+
+.midnights_文本clicked{
+  width: 500px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 54px;
+  margin-bottom: 250px;
+  margin-left: 250px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 19px;
+  letter-spacing: 2px;
+  transform: translateY(-30px);
+  border: solid transparent;
+  border-radius: 15px;
+  opacity: 0;
+} 
+.midnights_文本:hover{
+  transition: 0.5s;
+  box-shadow: 0 0px 15px 8px  rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+}
+.midnights_文本 strong{
+  background: linear-gradient(90deg,#4b5f83,#7598a7);
+  background-clip: text;
+  color: rgb(255, 255, 255,0);
+  /* text-shadow:   
+    -1px -1px 0 #58b530,    
+     1px -1px 0 #58b530,  
+    -1px  1px 0 #58b530,  
+     1px  1px 0 #58b530; */
+  font-family: "微软雅黑";
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 24px;
+}
+.midnights_chracter{
+  z-index: 2;
+  width: 90%;
+  bottom: 0;
+  transform: translatex(5%);
+  opacity: 0;
+  transition: 0.5s; 
+}
+.midnights:hover .midnights_chracter{
+  opacity: 1;
+  transform: perspective(500px) translate3d(5%,-7px ,50px);
+  transition: 0.5s;
+}
+
+.no-hover-effect:hover .midnights_chracter {
+  z-index: 2;
+  width: 90%;
+  bottom: 0;
+  transform: translatex(5%);
+  opacity: 0;
+  transition: 0.5s; 
+}
+
+.midnights_name{
+  width: 100%;
+  z-index: 3;
+  bottom: 0px;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: 0.5s;
+}
+.midnights:hover .midnights_name{
+  transition: 0.5s;
+  opacity: 1;
+  filter: brightness(120%);
+  transform: perspective(500px) translate3d(0px,20px ,50px);
+}
+.no-hover-effect:hover .midnights_name {
+  box-shadow: none;  
+  transform: none;  
+  transition: none;  
+  filter: none; 
+  transition: 0.5s;
+  opacity: 0;
+}
+
+.midnights_vinyl{
+  transition: 0.5s;
+  z-index: 0;
+  width: 105%;
+  transition: 0.5s;
+  border-radius: 15px;
+  opacity: 0;
+  transform: translate3d(0,-7px,0);
+  
+}
+.midnights_vinylclicked{
+  z-index: 0;
+  width: 105%;
+  transition: 0.3s;
+  border-radius: 15px;
+  opacity: 1;
+  animation: moveout 0.5s  ease-in-out forwards 0.5s,spin 5s infinite linear 1s ;
+}
+@keyframes moveout{
+  from{
+    transform: translate3d(0,-7px,0);
+  }
+  to{
+    transform: translate3d(180px,-7px,0);
+  }
+
+}
+@keyframes spin {    
+  0%{  
+    transform:translate3d(180px,-7px,0) rotate(0deg);
+  }  
+  100%{
+    transform:translate3d(180px,-7px,0) rotate(360deg);
+  } 
+}  
+
+.midnights_movement{
+  z-index: 4;
+  width: 100%;
+  transition: 0.1s;
+  border-radius: 15px;
+  position: relative;
+  opacity: 0;
+}
+.midnights_movement_clicked{
+  z-index: 4;
+  width: 100%;
+  transition: 0.5s;
+  border-radius: 15px;
+  position: relative;
+  opacity: 1;
+  transition-delay: 0.5s;
+}
+
+
+.tv1989 img{
+  position: absolute;
+}
+.tv1989_album{
+  z-index: 1;
+  width: 100%;
+  transition: 0.5s;
+  box-shadow: 0 0px 15px 8px  rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+}
+.tv1989:hover .tv1989_album{
+  box-shadow: 0 35px 35px -8px rgba(0, 0, 0, 0.75);
+  transform:perspective(500px) rotateX(30deg);
+  transition: 0.5s;
+  filter: blur(1px) brightness(75%);
+}
+.no-hover-effect:hover .tv1989_album {
+  box-shadow: 0 0px 15px 8px  rgba(0, 0, 0, 0.5);
+  transform: none;  
+  transition: none;  
+  filter: none; 
+  transition: 0.5s;
+}
+.tv1989_audio{
+  width: 500px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 11180px;
+  margin-bottom: 250px;
+  margin-left: 950px;
+  position: absolute;
+  opacity: 0;
+}
+.tv1989_audioclicked{
+  transform: translateX(30px);
+  opacity: 1;
+  z-index: 10; 
+  transition-delay: 0.7s;
+}
+.tv1989_文本{
+  width: 500px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 70px;
+  margin-bottom: 250px;
+  margin-left: 250px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 19px;
+  letter-spacing: 2px;
+  transform: translateY(-30px);
+  border-radius: 15px;
+} 
+
+.tv1989_文本clicked{
+  width: 500px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 54px;
+  margin-bottom: 250px;
+  margin-left: 250px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 19px;
+  letter-spacing: 2px;
+  transform: translateY(-30px);
+  border: solid transparent;
+  border-radius: 15px;
+  opacity: 0;
+} 
+.tv1989_文本:hover{
+  transition: 0.5s;
+  box-shadow: 0 0px 15px 8px  rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+}
+.tv1989_文本 strong{
+  color: white;
+  text-shadow:   
+  -2px -2px 2px  #669cb7,    
+   2px -2px 2px  #669cb7,  
+  -2px  2px 2px  #669cb7,  
+   2px  2px 2px  #669cb7;
+  font-family: "微软雅黑";
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 22px;
+}
+.tv1989_chracter{
+  z-index: 2;
+  width: 75%;
+  bottom: 0;
+  transform: translatex(15%);
+  opacity: 0;
+  transition: 0.5s; 
+}
+.tv1989:hover .tv1989_chracter{
+  opacity: 1;
+  transform: perspective(500px) translate3d(15%,-8px ,50px);
+  transition: 0.5s;
+}
+
+.no-hover-effect:hover .tv1989_chracter {
+  z-index: 2;
+  width: 75%;
+  bottom: 0;
+  transform: translatex(15%);
+  opacity: 0;
+  transition: 0.5s; 
+}
+
+.tv1989_name{
+  width: 80%;
+  z-index: 3;
+  bottom: 0px;
+  opacity: 0;
+  transform: translate3d(27px,20px,0px);
+  transition: 0.5s;
+}
+.tv1989:hover .tv1989_name{
+  transition: 0.5s;
+  opacity: 1;
+  transform: perspective(500px) translate3d(27px,-1px ,50px);
+}
+.no-hover-effect:hover .tv1989_name {
+  width: 80%;
+  z-index: 3;
+  bottom: 0px;
+  opacity: 0;
+  transform: translateY(-20px);
+  transform: translateX(27px);
+  transition: 0.5s;
+}
+
+.tv1989_vinyl{
+  transition: 0.5s;
+  z-index: 0;
+  width: 105%;
+  transition: 0.5s;
+  border-radius: 15px;
+  opacity: 0;
+  transform: translate3d(0,-7px,0);
+  
+}
+.tv1989_vinylclicked{
+  z-index: 0;
+  width: 105%;
+  transition: 0.3s;
+  border-radius: 15px;
+  opacity: 1;
+  animation: moveout 0.5s  ease-in-out forwards 0.5s,spin 5s infinite linear 1s ;
+}
+@keyframes moveout{
+  from{
+    transform: translate3d(0,-7px,0);
+  }
+  to{
+    transform: translate3d(180px,-7px,0);
+  }
+
+}
+@keyframes spin {    
+  0%{  
+    transform:translate3d(180px,-7px,0) rotate(0deg);
+  }  
+  100%{
+    transform:translate3d(180px,-7px,0) rotate(360deg);
+  } 
+}  
+
+.tv1989_movement{
+  z-index: 4;
+  width: 100%;
+  transition: 0.1s;
+  border-radius: 15px;
+  position: relative;
+  opacity: 0;
+}
+.tv1989_movement_clicked{
+  z-index: 4;
+  width: 100%;
+  transition: 0.5s;
+  border-radius: 15px;
+  position: relative;
+  opacity: 1;
+  transition-delay: 0.5s;
+}
+
+.speaknowtv img{
+  position: absolute;
+}
+.speaknowtv_album{
+  z-index: 1;
+  width: 100%;
+  transition: 0.5s;
+  box-shadow: 0 0px 15px 8px  rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+}
+.speaknowtv:hover .speaknowtv_album{
+  box-shadow: 0 35px 35px -8px rgba(0, 0, 0, 0.75);
+  transform:perspective(500px) rotateX(30deg);
+  transition: 0.5s;
+  filter: blur(1px) brightness(75%);
+}
+.no-hover-effect:hover .speaknowtv_album {
+  box-shadow: 0 0px 15px 8px  rgba(0, 0, 0, 0.5);
+  transform: none;  
+  transition: none;  
+  filter: none; 
+  transition: 0.5s;
+}
+.speaknowtv_audio{
+  width: 500px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 12110px;
+  margin-bottom: 250px;
+  margin-left: 950px;
+  position: absolute;
+  opacity: 0;
+}
+.speaknowtv_audioclicked{
+  transform: translateX(30px);
+  opacity: 1;
+  z-index: 10; 
+  transition-delay: 0.7s;
+}
+.speaknowtv_文本{
+  width: 500px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 54px;
+  margin-bottom: 250px;
+  margin-left: 250px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 19px;
+  letter-spacing: 2px;
+  transform: translateY(-30px);
+  border: solid transparent;
+  border-radius: 15px;
+} 
+
+.speaknowtv_文本clicked{
+  width: 500px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 54px;
+  margin-bottom: 250px;
+  margin-left: 250px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 19px;
+  letter-spacing: 2px;
+  transform: translateY(-30px);
+  border-radius: 15px;
+  opacity: 0;
+} 
+.speaknowtv_文本:hover{
+  transition: 0.5s;
+  box-shadow: 0 0px 15px 8px  rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+}
+.speaknowtv_文本 strong{
+  color: #502a5e;
+  text-shadow:   
+  -2px -2px 2px  #c9bcd5,    
+   2px -2px 2px  #c9bcd5,  
+  -2px  2px 2px  #c9bcd5,  
+   2px  2px 2px  #c9bcd5;
+  font-family: "微软雅黑";
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 22px;
+}
+.speaknowtv_chracter{
+  z-index: 2;
+  width: 120%;
+  bottom: 0;
+  transform: translatex(-5%);
+  opacity: 0;
+  transition: 0.5s; 
+}
+.speaknowtv:hover .speaknowtv_chracter{
+  opacity: 1;
+  transform: perspective(500px) translate3d(-5%,-11px ,50px);
+  transition: 0.5s;
+}
+
+.no-hover-effect:hover .speaknowtv_chracter {
+  z-index: 2;
+  width: 120%;
+  bottom: 0;
+  transform: translatex(-5%);
+  opacity: 0;
+  transition: 0.5s; 
+}
+
+.speaknowtv_name{
+  width: 100%;
+  z-index: 3;
+  bottom: 0px;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: 0.5s;
+}
+.speaknowtv:hover .speaknowtv_name{
+  transition: 0.5s;
+  opacity: 1;
+  transform: perspective(500px) translate3d(0px,-20px ,50px);
+}
+.no-hover-effect:hover .speaknowtv_name {
+  box-shadow: none;  
+  transform: none;  
+  transition: none;  
+  filter: none; 
+  transition: 0.5s;
+  opacity: 0;
+}
+
+.speaknowtv_vinyl{
+  transition: 0.5s;
+  z-index: 0;
+  width: 105%;
+  transition: 0.5s;
+  border-radius: 15px;
+  opacity: 0;
+  transform: translate3d(0,-7px,0);
+  
+}
+.speaknowtv_vinylclicked{
+  z-index: 0;
+  width: 105%;
+  transition: 0.3s;
+  border-radius: 15px;
+  opacity: 1;
+  animation: moveout 0.5s  ease-in-out forwards 0.5s,spin 5s infinite linear 1s ;
+}
+@keyframes moveout{
+  from{
+    transform: translate3d(0,-7px,0);
+  }
+  to{
+    transform: translate3d(180px,-7px,0);
+  }
+
+}
+@keyframes spin {    
+  0%{  
+    transform:translate3d(180px,-7px,0) rotate(0deg);
+  }  
+  100%{
+    transform:translate3d(180px,-7px,0) rotate(360deg);
+  } 
+}  
+
+.speaknowtv_movement{
+  z-index: 4;
+  width: 100%;
+  transition: 0.1s;
+  border-radius: 15px;
+  position: relative;
+  opacity: 0;
+}
+.speaknowtv_movement_clicked{
+  z-index: 4;
+  width: 100%;
+  transition: 0.5s;
+  border-radius: 15px;
+  position: relative;
+  opacity: 1;
+  transition-delay: 0.5s;
+}
+
+.ttpd img{
+  position: absolute;
+}
+.ttpd_album{
+  z-index: 1;
+  width: 100%;
+  transition: 0.5s;
+  box-shadow: 0 0px 15px 8px  rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+}
+.ttpd:hover .ttpd_album{
+  box-shadow: 0 35px 35px -8px rgba(0, 0, 0, 0.75);
+  transform:perspective(500px) rotateX(30deg);
+  transition: 0.5s;
+  filter: blur(1px) brightness(75%);
+}
+.no-hover-effect:hover .ttpd_album {
+  box-shadow: 0 0px 15px 8px  rgba(0, 0, 0, 0.5);
+  transform: none;  
+  transition: none;  
+  filter: none; 
+  transition: 0.5s;
+}
+.ttpd_audio{
+  width: 500px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 13030px;
+  margin-bottom: 250px;
+  margin-left: 950px;
+  position: absolute;
+  opacity: 0;
+}
+.ttpd_audioclicked{
+  transform: translateX(30px);
+  opacity: 1;
+  z-index: 10; 
+  transition-delay: 0.7s;
+}
+.ttpd_文本{
+  width: 500px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 80px;
+  margin-bottom: 250px;
+  margin-left: 250px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 19px;
+  letter-spacing: 2px;
+  transform: translateY(-30px);
+  border: solid transparent;
+  border-radius: 15px;
+} 
+
+.ttpd_文本clicked{
+  width: 500px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 54px;
+  margin-bottom: 250px;
+  margin-left: 250px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 19px;
+  letter-spacing: 2px;
+  transform: translateY(-30px);
+  border-radius: 15px;
+  opacity: 0;
+} 
+.ttpd_文本:hover{
+  transition: 0.5s;
+  box-shadow: 0 0px 15px 8px  rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+}
+.ttpd_文本 strong{
+  color: white;
+  text-shadow:   
+  -2px -2px 2px  #7f766d,    
+   2px -2px 2px  #7f766d,  
+  -2px  2px 2px  #7f766d,  
+   2px  2px 2px  #7f766d;
+  font-family: "微软雅黑";
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 22px;
+}
+.ttpd_chracter{
+  z-index: 2;
+  width: 80%;
+  bottom: 0;
+  transform: translatex(18%);
+  opacity: 0;
+  transition: 0.5s; 
+}
+.ttpd:hover .ttpd_chracter{
+  opacity: 1;
+  transform: perspective(500px) translate3d(18%,-11px ,50px);
+  transition: 0.5s;
+}
+
+.no-hover-effect:hover .ttpd_chracter {
+  z-index: 2;
+  width: 80%;
+  bottom: 0;
+  transform: translatex(18%);
+  opacity: 0;
+  transition: 0.5s; 
+}
+
+.ttpd_name{
+  width: 120%;
+  z-index: 3;
+  bottom: 0px;
+  opacity: 0;
+  transform: translate3d(-35px,20px,0px);
+  transition: 0.5s;
+}
+.ttpd:hover .ttpd_name{
+  transition: 0.5s;
+  opacity: 1;
+  transform: perspective(500px) translate3d(-35px,-10px ,50px);
+}
+.no-hover-effect:hover .ttpd_name {
+  width: 120%;
+  z-index: 3;
+  bottom: 0px;
+  opacity: 0;
+  transform: translate3d(-35px,20px,0px);
+  transition: 0.5s;
+}
+
+.ttpd_vinyl{
+  transition: 0.5s;
+  z-index: 0;
+  width: 105%;
+  transition: 0.5s;
+  border-radius: 15px;
+  opacity: 0;
+  transform: translate3d(0,-7px,0);
+  
+}
+.ttpd_vinylclicked{
+  z-index: 0;
+  width: 105%;
+  transition: 0.3s;
+  border-radius: 15px;
+  opacity: 1;
+  animation: moveout 0.5s  ease-in-out forwards 0.5s,spin 5s infinite linear 1s ;
+}
+@keyframes moveout{
+  from{
+    transform: translate3d(0,-7px,0);
+  }
+  to{
+    transform: translate3d(180px,-7px,0);
+  }
+
+}
+@keyframes spin {    
+  0%{  
+    transform:translate3d(180px,-7px,0) rotate(0deg);
+  }  
+  100%{
+    transform:translate3d(180px,-7px,0) rotate(360deg);
+  } 
+}  
+
+.ttpd_movement{
+  z-index: 4;
+  width: 100%;
+  transition: 0.1s;
+  border-radius: 15px;
+  position: relative;
+  opacity: 0;
+}
+.ttpd_movement_clicked{
+  z-index: 4;
+  width: 100%;
+  transition: 0.5s;
+  border-radius: 15px;
+  position: relative;
+  opacity: 1;
+  transition-delay: 0.5s;
+}
